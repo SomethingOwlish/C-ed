@@ -142,32 +142,32 @@ C_ed/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/build
 .PHONY : C_ed/fast
 
-les1/main.o: les1/main.cpp.o
+les1/les1.o: les1/les1.cpp.o
 
-.PHONY : les1/main.o
+.PHONY : les1/les1.o
 
 # target to build an object file
-les1/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les1/main.cpp.o
-.PHONY : les1/main.cpp.o
+les1/les1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les1/les1.cpp.o
+.PHONY : les1/les1.cpp.o
 
-les1/main.i: les1/main.cpp.i
+les1/les1.i: les1/les1.cpp.i
 
-.PHONY : les1/main.i
+.PHONY : les1/les1.i
 
 # target to preprocess a source file
-les1/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les1/main.cpp.i
-.PHONY : les1/main.cpp.i
+les1/les1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les1/les1.cpp.i
+.PHONY : les1/les1.cpp.i
 
-les1/main.s: les1/main.cpp.s
+les1/les1.s: les1/les1.cpp.s
 
-.PHONY : les1/main.s
+.PHONY : les1/les1.s
 
 # target to generate assembly for a file
-les1/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les1/main.cpp.s
-.PHONY : les1/main.cpp.s
+les1/les1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les1/les1.cpp.s
+.PHONY : les1/les1.cpp.s
 
 les2/les2.o: les2/les2.cpp.o
 
@@ -196,6 +196,60 @@ les2/les2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les2/les2.cpp.s
 .PHONY : les2/les2.cpp.s
 
+les3/les3.o: les3/les3.cpp.o
+
+.PHONY : les3/les3.o
+
+# target to build an object file
+les3/les3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les3/les3.cpp.o
+.PHONY : les3/les3.cpp.o
+
+les3/les3.i: les3/les3.cpp.i
+
+.PHONY : les3/les3.i
+
+# target to preprocess a source file
+les3/les3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les3/les3.cpp.i
+.PHONY : les3/les3.cpp.i
+
+les3/les3.s: les3/les3.cpp.s
+
+.PHONY : les3/les3.s
+
+# target to generate assembly for a file
+les3/les3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les3/les3.cpp.s
+.PHONY : les3/les3.cpp.s
+
+les3/valLes3.o: les3/valLes3.cpp.o
+
+.PHONY : les3/valLes3.o
+
+# target to build an object file
+les3/valLes3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les3/valLes3.cpp.o
+.PHONY : les3/valLes3.cpp.o
+
+les3/valLes3.i: les3/valLes3.cpp.i
+
+.PHONY : les3/valLes3.i
+
+# target to preprocess a source file
+les3/valLes3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les3/valLes3.cpp.i
+.PHONY : les3/valLes3.cpp.i
+
+les3/valLes3.s: les3/valLes3.cpp.s
+
+.PHONY : les3/valLes3.s
+
+# target to generate assembly for a file
+les3/valLes3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les3/valLes3.cpp.s
+.PHONY : les3/valLes3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -205,12 +259,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_ed"
-	@echo "... les1/main.o"
-	@echo "... les1/main.i"
-	@echo "... les1/main.s"
+	@echo "... les1/les1.o"
+	@echo "... les1/les1.i"
+	@echo "... les1/les1.s"
 	@echo "... les2/les2.o"
 	@echo "... les2/les2.i"
 	@echo "... les2/les2.s"
+	@echo "... les3/les3.o"
+	@echo "... les3/les3.i"
+	@echo "... les3/les3.s"
+	@echo "... les3/valLes3.o"
+	@echo "... les3/valLes3.i"
+	@echo "... les3/valLes3.s"
 .PHONY : help
 
 

@@ -1,7 +1,7 @@
 #include <iostream>
 //комментарий
 
-int main1() {
+int les1() {
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
@@ -11,7 +11,7 @@ int main1() {
 /* большой комментарий
  Что бы прям все*/
 // cin из лекции
-int main2() {
+int les1_2() {
     using namespace std;
     cout << "Enter your name: ";
     char name [32] = { 0 };

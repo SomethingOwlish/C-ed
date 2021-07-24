@@ -23,8 +23,8 @@ enum gameSymbols {
 // задание 4
 struct pl
 {char symbol;
-    std::string name};
-bool isStart;}
+    std::string name;};
+bool isStart;
 
  struct field {
    char fi[3][3] = {{E, E, E}, {E, E, E}, {E, E, E}};
@@ -44,11 +44,17 @@ bool isPl2Win;
 
 
 
-int main() {
-    struct whatIf{
-        union log{int phone; float id; char userFirstChar;};
-        unsigned int isInt : 1;
-        unsigned int isFloat : 1;
-        unsigned int isChar : 1;
-    } ;
+int les2() {
+    struct whatIf {
+        union log {
+            int phone;
+            float id;
+            char userFirstChar;
+        };
+        unsigned int isInt: 1;
+        unsigned int isFloat: 1;
+        unsigned int isChar: 1;
 
+    };
+    return 0;
+};
