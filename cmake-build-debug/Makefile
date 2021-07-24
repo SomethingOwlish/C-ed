@@ -142,32 +142,59 @@ C_ed/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/build
 .PHONY : C_ed/fast
 
-main.o: main.cpp.o
+les1/main.o: les1/main.cpp.o
 
-.PHONY : main.o
+.PHONY : les1/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/main.cpp.o
-.PHONY : main.cpp.o
+les1/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les1/main.cpp.o
+.PHONY : les1/main.cpp.o
 
-main.i: main.cpp.i
+les1/main.i: les1/main.cpp.i
 
-.PHONY : main.i
+.PHONY : les1/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/main.cpp.i
-.PHONY : main.cpp.i
+les1/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les1/main.cpp.i
+.PHONY : les1/main.cpp.i
 
-main.s: main.cpp.s
+les1/main.s: les1/main.cpp.s
 
-.PHONY : main.s
+.PHONY : les1/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/main.cpp.s
-.PHONY : main.cpp.s
+les1/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les1/main.cpp.s
+.PHONY : les1/main.cpp.s
+
+les2/les2.o: les2/les2.cpp.o
+
+.PHONY : les2/les2.o
+
+# target to build an object file
+les2/les2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les2/les2.cpp.o
+.PHONY : les2/les2.cpp.o
+
+les2/les2.i: les2/les2.cpp.i
+
+.PHONY : les2/les2.i
+
+# target to preprocess a source file
+les2/les2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les2/les2.cpp.i
+.PHONY : les2/les2.cpp.i
+
+les2/les2.s: les2/les2.cpp.s
+
+.PHONY : les2/les2.s
+
+# target to generate assembly for a file
+les2/les2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les2/les2.cpp.s
+.PHONY : les2/les2.cpp.s
 
 # Help Target
 help:
@@ -178,9 +205,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_ed"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... les1/main.o"
+	@echo "... les1/main.i"
+	@echo "... les1/main.s"
+	@echo "... les2/les2.o"
+	@echo "... les2/les2.i"
+	@echo "... les2/les2.s"
 .PHONY : help
 
 

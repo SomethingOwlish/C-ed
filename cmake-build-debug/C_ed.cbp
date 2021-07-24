@@ -80,7 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/main.cpp">
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les1/main.cpp">
+			<Option target="C_ed"/>
+		</Unit>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les2/les2.cpp">
 			<Option target="C_ed"/>
 		</Unit>
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/CMakeLists.txt">
