@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/ch/chall3.cpp">
+			<Option target="C_ed"/>
+		</Unit>
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les1/les1.cpp">
 			<Option target="C_ed"/>
 		</Unit>
@@ -90,6 +93,9 @@
 			<Option target="C_ed"/>
 		</Unit>
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les3/valLes3.cpp">
+			<Option target="C_ed"/>
+		</Unit>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les4/les4.cpp">
 			<Option target="C_ed"/>
 		</Unit>
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/CMakeLists.txt">

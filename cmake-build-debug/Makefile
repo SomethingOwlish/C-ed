@@ -142,6 +142,33 @@ C_ed/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/build
 .PHONY : C_ed/fast
 
+ch/chall3.o: ch/chall3.cpp.o
+
+.PHONY : ch/chall3.o
+
+# target to build an object file
+ch/chall3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/ch/chall3.cpp.o
+.PHONY : ch/chall3.cpp.o
+
+ch/chall3.i: ch/chall3.cpp.i
+
+.PHONY : ch/chall3.i
+
+# target to preprocess a source file
+ch/chall3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/ch/chall3.cpp.i
+.PHONY : ch/chall3.cpp.i
+
+ch/chall3.s: ch/chall3.cpp.s
+
+.PHONY : ch/chall3.s
+
+# target to generate assembly for a file
+ch/chall3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/ch/chall3.cpp.s
+.PHONY : ch/chall3.cpp.s
+
 les1/les1.o: les1/les1.cpp.o
 
 .PHONY : les1/les1.o
@@ -250,6 +277,33 @@ les3/valLes3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les3/valLes3.cpp.s
 .PHONY : les3/valLes3.cpp.s
 
+les4/les4.o: les4/les4.cpp.o
+
+.PHONY : les4/les4.o
+
+# target to build an object file
+les4/les4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les4/les4.cpp.o
+.PHONY : les4/les4.cpp.o
+
+les4/les4.i: les4/les4.cpp.i
+
+.PHONY : les4/les4.i
+
+# target to preprocess a source file
+les4/les4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les4/les4.cpp.i
+.PHONY : les4/les4.cpp.i
+
+les4/les4.s: les4/les4.cpp.s
+
+.PHONY : les4/les4.s
+
+# target to generate assembly for a file
+les4/les4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les4/les4.cpp.s
+.PHONY : les4/les4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -259,6 +313,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_ed"
+	@echo "... ch/chall3.o"
+	@echo "... ch/chall3.i"
+	@echo "... ch/chall3.s"
 	@echo "... les1/les1.o"
 	@echo "... les1/les1.i"
 	@echo "... les1/les1.s"
@@ -271,6 +328,9 @@ help:
 	@echo "... les3/valLes3.o"
 	@echo "... les3/valLes3.i"
 	@echo "... les3/valLes3.s"
+	@echo "... les4/les4.o"
+	@echo "... les4/les4.i"
+	@echo "... les4/les4.s"
 .PHONY : help
 
 
