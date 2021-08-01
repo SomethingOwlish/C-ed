@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/c_ed_headers.h">
+			<Option target="C_ed"/>
+		</Unit>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/ch/bitmap_image.hpp">
+			<Option target="C_ed"/>
+		</Unit>
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/ch/chall3.cpp">
 			<Option target="C_ed"/>
 		</Unit>

@@ -109,7 +109,7 @@ int un5(){
 
 
 //вызов программ по очереди)
-int main(){
+int les4(){
     std::cout  << "Task 1" << '\n';
     un1();
     std::cout  << std::endl;

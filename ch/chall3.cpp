@@ -9,3 +9,20 @@
  * (Вместо белого один символ, вместо черного цвета другой). 😎☺️*/
 
 
+#include <iostream>
+#include "bitmap_image.hpp"
+#include "EasyBMP_1.06/EasyBMP.h"
+
+int mainCh(){
+    bitmap_image image("cat.bmp");
+// Картинку в массив?
+
+// Массив вывести побитно на экран?
+
+
+    /*
+
+             SetPixel(hDC, x, y, pBits[y * bmpInfo.bmWidth + x]);
+         */
+    return 0;
+}

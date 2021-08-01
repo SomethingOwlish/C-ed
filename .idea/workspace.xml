@@ -11,7 +11,36 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3b3d2d-ebe4-4d24-af73-ac21c32b555d" name="Default Changelist" comment="1" />
+    <list default="true" id="7b3b3d2d-ebe4-4d24-af73-ac21c32b555d" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/c_ed_headers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/EasyBMP_1.06/BSD_(revised)_license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/EasyBMP_1.06/EasyBMP.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/EasyBMP_1.06/EasyBMP.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/EasyBMP_1.06/EasyBMP_BMP.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/EasyBMP_1.06/EasyBMP_ChangeLog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/EasyBMP_1.06/EasyBMP_DataStructures.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/EasyBMP_1.06/EasyBMP_VariousBMPutilities.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/EasyBMP_1.06/sample/EasyBMPbackground.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/EasyBMP_1.06/sample/EasyBMPsample.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/EasyBMP_1.06/sample/EasyBMPtext.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/EasyBMP_1.06/sample/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/cat.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/chall3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ch/chall3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/ch/chall3.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/ch/chall3.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/les3/les3.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/les3/les3.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/les4/les4.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/les4/les4.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_ed" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_ed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_ed.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_ed.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les3/les3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/les3/les3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les4/les4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/les4/les4.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,12 +54,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vXkE1zg6BfT0mukpA40BkPw6iN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
@@ -44,9 +76,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/bmplib/bitmap_test.cpp" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch" />
       <recent name="$PROJECT_DIR$/les1" />
     </key>
   </component>
@@ -80,6 +114,9 @@
       <workItem from="1627137907855" duration="597000" />
       <workItem from="1627161882028" duration="6663000" />
       <workItem from="1627413397932" duration="14067000" />
+      <workItem from="1627757349566" duration="112000" />
+      <workItem from="1627759823484" duration="120000" />
+      <workItem from="1627827610633" duration="9437000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1626720106589</created>
@@ -114,7 +151,19 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1" />
     <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/les4/les4.cpp</url>
+          <line>126</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
