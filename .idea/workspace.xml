@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3b3d2d-ebe4-4d24-af73-ac21c32b555d" name="Default Changelist" comment="1">
+    <list default="true" id="7b3b3d2d-ebe4-4d24-af73-ac21c32b555d" name="Default Changelist" comment="ch try and no way">
       <change afterPath="$PROJECT_DIR$/c_ed_headers.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ch/EasyBMP_1.06/BSD_(revised)_license.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ch/EasyBMP_1.06/EasyBMP.cpp" afterDir="false" />
@@ -116,7 +116,7 @@
       <workItem from="1627413397932" duration="14067000" />
       <workItem from="1627757349566" duration="112000" />
       <workItem from="1627759823484" duration="120000" />
-      <workItem from="1627827610633" duration="9437000" />
+      <workItem from="1627827610633" duration="9508000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1626720106589</created>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627024770665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ch try and no way">
+      <created>1627847918227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627847918227</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +160,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="ch try and no way" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch try and no way" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
