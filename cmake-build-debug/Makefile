@@ -304,6 +304,87 @@ les4/les4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les4/les4.cpp.s
 .PHONY : les4/les4.cpp.s
 
+les5/les5.o: les5/les5.cpp.o
+
+.PHONY : les5/les5.o
+
+# target to build an object file
+les5/les5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les5/les5.cpp.o
+.PHONY : les5/les5.cpp.o
+
+les5/les5.i: les5/les5.cpp.i
+
+.PHONY : les5/les5.i
+
+# target to preprocess a source file
+les5/les5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les5/les5.cpp.i
+.PHONY : les5/les5.cpp.i
+
+les5/les5.s: les5/les5.cpp.s
+
+.PHONY : les5/les5.s
+
+# target to generate assembly for a file
+les5/les5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les5/les5.cpp.s
+.PHONY : les5/les5.cpp.s
+
+les6/les6.o: les6/les6.cpp.o
+
+.PHONY : les6/les6.o
+
+# target to build an object file
+les6/les6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6/les6.cpp.o
+.PHONY : les6/les6.cpp.o
+
+les6/les6.i: les6/les6.cpp.i
+
+.PHONY : les6/les6.i
+
+# target to preprocess a source file
+les6/les6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6/les6.cpp.i
+.PHONY : les6/les6.cpp.i
+
+les6/les6.s: les6/les6.cpp.s
+
+.PHONY : les6/les6.s
+
+# target to generate assembly for a file
+les6/les6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6/les6.cpp.s
+.PHONY : les6/les6.cpp.s
+
+les6/source.o: les6/source.cpp.o
+
+.PHONY : les6/source.o
+
+# target to build an object file
+les6/source.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6/source.cpp.o
+.PHONY : les6/source.cpp.o
+
+les6/source.i: les6/source.cpp.i
+
+.PHONY : les6/source.i
+
+# target to preprocess a source file
+les6/source.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6/source.cpp.i
+.PHONY : les6/source.cpp.i
+
+les6/source.s: les6/source.cpp.s
+
+.PHONY : les6/source.s
+
+# target to generate assembly for a file
+les6/source.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6/source.cpp.s
+.PHONY : les6/source.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -331,6 +412,15 @@ help:
 	@echo "... les4/les4.o"
 	@echo "... les4/les4.i"
 	@echo "... les4/les4.s"
+	@echo "... les5/les5.o"
+	@echo "... les5/les5.i"
+	@echo "... les5/les5.s"
+	@echo "... les6/les6.o"
+	@echo "... les6/les6.i"
+	@echo "... les6/les6.s"
+	@echo "... les6/source.o"
+	@echo "... les6/source.i"
+	@echo "... les6/source.s"
 .PHONY : help
 
 

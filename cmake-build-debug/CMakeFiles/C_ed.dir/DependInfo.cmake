@@ -10,6 +10,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/morganvalravn/Documents/Projects/C-ed/les3/les3.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les3/les3.cpp.o"
   "/Users/morganvalravn/Documents/Projects/C-ed/les3/valLes3.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les3/valLes3.cpp.o"
   "/Users/morganvalravn/Documents/Projects/C-ed/les4/les4.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les4/les4.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/les5/les5.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les5/les5.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/les6/les6.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les6/les6.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/les6/source.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les6/source.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

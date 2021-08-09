@@ -104,6 +104,15 @@
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les4/les4.cpp">
 			<Option target="C_ed"/>
 		</Unit>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les5/les5.cpp">
+			<Option target="C_ed"/>
+		</Unit>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les6/les6.cpp">
+			<Option target="C_ed"/>
+		</Unit>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les6/source.cpp">
+			<Option target="C_ed"/>
+		</Unit>
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

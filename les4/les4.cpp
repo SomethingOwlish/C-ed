@@ -7,7 +7,7 @@ inline const char * const BoolToString(bool b)
     return b ? "true" : "false";
 }
 //А теперь сама задачка
- int un1(){
+ int un41(){
     using namespace std;
      float val1 = 0, val2 = 0, sum = 0; //так как о целочисленности в условиях не было - пусть будет так.
      bool res1;
@@ -25,7 +25,7 @@ inline const char * const BoolToString(bool b)
 
 //Задание 2
 
-int un2(){
+int un42(){
     //в условии было определить константы сразу
     int const VAL2_1 = 3;
     int const VAL2_2 = 4;
@@ -48,7 +48,7 @@ int un2(){
 };
 
 //Задание 3
-int un3(){
+int un43(){
     int listOf[25];
     int i = 0, q = 0;
     while (i < 50){
@@ -67,7 +67,7 @@ int un3(){
 
 //Задание 4
 
-int un4(){
+int un44(){
     int x; int val3 = 0;
     std::cout << "Enter value" << std::endl ;
     std::cin >> val3;
@@ -86,7 +86,7 @@ int un4(){
 
 //Задание 5
 
-int un5(){
+int un45(){
     using namespace std;
     int year = 0;
     bool res5;
@@ -111,23 +111,23 @@ int un5(){
 //вызов программ по очереди)
 int les4(){
     std::cout  << "Task 1" << '\n';
-    un1();
+    un41();
     std::cout  << std::endl;
 
     std::cout  << "Task 2" << '\n';
-    un2();
+    un42();
     std::cout  << std::endl;
 
     std::cout  << "Task 3" << '\n';
-    un3();
+    un43();
     std::cout  << std::endl;
 
     std::cout  << "Task 4" << '\n';
-    un4();
+    un44();
     std::cout  << std::endl;
 
     std::cout  << "Task 5" << '\n';
-    un5();
+    un45();
     std::cout  << std::endl;
     return 0;
 }

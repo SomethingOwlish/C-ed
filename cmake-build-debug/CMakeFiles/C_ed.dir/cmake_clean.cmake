@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/C_ed.dir/les3/les3.cpp.o"
   "CMakeFiles/C_ed.dir/les3/valLes3.cpp.o"
   "CMakeFiles/C_ed.dir/les4/les4.cpp.o"
+  "CMakeFiles/C_ed.dir/les5/les5.cpp.o"
+  "CMakeFiles/C_ed.dir/les6/les6.cpp.o"
+  "CMakeFiles/C_ed.dir/les6/source.cpp.o"
   "C_ed"
   "C_ed.pdb"
 )
