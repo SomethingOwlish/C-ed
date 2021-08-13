@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/morganvalravn/Documents/Projects/C-ed/les6/les6.cpp
+/Users/morganvalravn/Documents/Projects/C-ed/les6-7/les7.cpp
 iostream
 -
 fstream
+-
+string
+-
+source.h
+/Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.h
+
+/Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.cpp
+iostream
+-
+
+/Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.h
+iostream
 -
 

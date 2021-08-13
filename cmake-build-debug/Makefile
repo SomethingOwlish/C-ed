@@ -331,59 +331,86 @@ les5/les5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les5/les5.cpp.s
 .PHONY : les5/les5.cpp.s
 
-les6/les6.o: les6/les6.cpp.o
+les6-7/les6.o: les6-7/les6.cpp.o
 
-.PHONY : les6/les6.o
-
-# target to build an object file
-les6/les6.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6/les6.cpp.o
-.PHONY : les6/les6.cpp.o
-
-les6/les6.i: les6/les6.cpp.i
-
-.PHONY : les6/les6.i
-
-# target to preprocess a source file
-les6/les6.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6/les6.cpp.i
-.PHONY : les6/les6.cpp.i
-
-les6/les6.s: les6/les6.cpp.s
-
-.PHONY : les6/les6.s
-
-# target to generate assembly for a file
-les6/les6.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6/les6.cpp.s
-.PHONY : les6/les6.cpp.s
-
-les6/source.o: les6/source.cpp.o
-
-.PHONY : les6/source.o
+.PHONY : les6-7/les6.o
 
 # target to build an object file
-les6/source.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6/source.cpp.o
-.PHONY : les6/source.cpp.o
+les6-7/les6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6-7/les6.cpp.o
+.PHONY : les6-7/les6.cpp.o
 
-les6/source.i: les6/source.cpp.i
+les6-7/les6.i: les6-7/les6.cpp.i
 
-.PHONY : les6/source.i
+.PHONY : les6-7/les6.i
 
 # target to preprocess a source file
-les6/source.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6/source.cpp.i
-.PHONY : les6/source.cpp.i
+les6-7/les6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6-7/les6.cpp.i
+.PHONY : les6-7/les6.cpp.i
 
-les6/source.s: les6/source.cpp.s
+les6-7/les6.s: les6-7/les6.cpp.s
 
-.PHONY : les6/source.s
+.PHONY : les6-7/les6.s
 
 # target to generate assembly for a file
-les6/source.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6/source.cpp.s
-.PHONY : les6/source.cpp.s
+les6-7/les6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6-7/les6.cpp.s
+.PHONY : les6-7/les6.cpp.s
+
+les6-7/les7.o: les6-7/les7.cpp.o
+
+.PHONY : les6-7/les7.o
+
+# target to build an object file
+les6-7/les7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6-7/les7.cpp.o
+.PHONY : les6-7/les7.cpp.o
+
+les6-7/les7.i: les6-7/les7.cpp.i
+
+.PHONY : les6-7/les7.i
+
+# target to preprocess a source file
+les6-7/les7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6-7/les7.cpp.i
+.PHONY : les6-7/les7.cpp.i
+
+les6-7/les7.s: les6-7/les7.cpp.s
+
+.PHONY : les6-7/les7.s
+
+# target to generate assembly for a file
+les6-7/les7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6-7/les7.cpp.s
+.PHONY : les6-7/les7.cpp.s
+
+les6-7/source.o: les6-7/source.cpp.o
+
+.PHONY : les6-7/source.o
+
+# target to build an object file
+les6-7/source.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6-7/source.cpp.o
+.PHONY : les6-7/source.cpp.o
+
+les6-7/source.i: les6-7/source.cpp.i
+
+.PHONY : les6-7/source.i
+
+# target to preprocess a source file
+les6-7/source.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6-7/source.cpp.i
+.PHONY : les6-7/source.cpp.i
+
+les6-7/source.s: les6-7/source.cpp.s
+
+.PHONY : les6-7/source.s
+
+# target to generate assembly for a file
+les6-7/source.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/les6-7/source.cpp.s
+.PHONY : les6-7/source.cpp.s
 
 # Help Target
 help:
@@ -415,12 +442,15 @@ help:
 	@echo "... les5/les5.o"
 	@echo "... les5/les5.i"
 	@echo "... les5/les5.s"
-	@echo "... les6/les6.o"
-	@echo "... les6/les6.i"
-	@echo "... les6/les6.s"
-	@echo "... les6/source.o"
-	@echo "... les6/source.i"
-	@echo "... les6/source.s"
+	@echo "... les6-7/les6.o"
+	@echo "... les6-7/les6.i"
+	@echo "... les6-7/les6.s"
+	@echo "... les6-7/les7.o"
+	@echo "... les6-7/les7.i"
+	@echo "... les6-7/les7.s"
+	@echo "... les6-7/source.o"
+	@echo "... les6-7/source.i"
+	@echo "... les6-7/source.s"
 .PHONY : help
 
 

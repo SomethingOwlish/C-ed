@@ -9,7 +9,7 @@ void valFor2(int** list, int x, int y); // Заполнители значени
 
 //Задание 1
 
-int un1(){
+int un61(){
     int* list;
     int size = ask(); // Количество элементов
     list = new (std::nothrow) int[size];
@@ -30,7 +30,7 @@ void val(int* list,int sizeV){
 //Задание 2
 void create(int **list, int x, int y);
 void dell(int** list, int x, int y);
-int un2(){
+int un62(){
     const size_t x = 4;
     const size_t y = 4;
     int** list2;
@@ -66,7 +66,7 @@ void valFor2(int** list, int x, int y){
 std::string One, Two; // это переменные для 4 задачи
 
 
-int un3(){
+int un63(){
 std::string nameOne = askStr();
 std::string nameTwo = askStr();
 
@@ -86,7 +86,7 @@ std::string nameTwo = askStr();
 };
 
 //Задание 4
-int un4(){
+int un64(){
     using namespace std;
     string nameAll = askStr(); //просим имя файла
     string tmpString;
@@ -140,7 +140,7 @@ int un4(){
 
 //Задание 5
 
-int un5(){
+int un65(){
     using namespace std;
     cout << "Надо найти ";
     string search = askStr();// Спрашиваем что искать
@@ -166,26 +166,26 @@ int un5(){
 };
 
 
-int main(){
+int main6(){
     srand (time(0));
-    std::cout  << "Task 1" << '\n';
-    un1();
+    std::cout  << "Task 61" << '\n';
+    un61();
     std::cout  << std::endl;
 
-    std::cout  << "Task 2" << '\n';
-    un2();
+    std::cout  << "Task 62" << '\n';
+    un62();
     std::cout  << std::endl;
 
-    std::cout  << "Task 3" << '\n';
-   un3();
+    std::cout  << "Task 63" << '\n';
+   un63();
     std::cout  << std::endl;
 
-    std::cout  << "Task 4" << '\n';
-   un4();
+    std::cout  << "Task 64" << '\n';
+   un64();
     std::cout  << std::endl;
 
-    std::cout  << "Task 5" << '\n';
-    un5();
+    std::cout  << "Task 65" << '\n';
+    un65();
     std::cout  << std::endl;
 
 

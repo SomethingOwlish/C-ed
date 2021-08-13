@@ -11,30 +11,30 @@
 				<Option working_dir="/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_ed">
@@ -43,19 +43,12 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_ed"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_ed"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_ed/fast">
@@ -64,19 +57,12 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_ed/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_ed/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -107,10 +93,16 @@
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les5/les5.cpp">
 			<Option target="C_ed"/>
 		</Unit>
-		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les6/les6.cpp">
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les6-7/les6.cpp">
 			<Option target="C_ed"/>
 		</Unit>
-		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les6/source.cpp">
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les6-7/les7.cpp">
+			<Option target="C_ed"/>
+		</Unit>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.cpp">
+			<Option target="C_ed"/>
+		</Unit>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.h">
 			<Option target="C_ed"/>
 		</Unit>
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/CMakeLists.txt">
