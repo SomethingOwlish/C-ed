@@ -158,7 +158,7 @@ int main(){
 }
 
 
-#include <stack>
+#include <stack> // Тут что бы решение выше не сбить
 
 class Test{
 std::stack<int> arr;
