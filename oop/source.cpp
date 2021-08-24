@@ -1,12 +1,19 @@
 #include <iostream>
-
-int ask(){
-    int par;
+#include <cstdint>
+namespace oopSrce {
+float ask(){
+    float par;
     std::cout << "Введите число" << std::endl;
     std::cin >> par;
     return par;
 };
 
+std::uint8_t askUi(){
+        int par; // Тут такой тип, потому что иначе будет некорректно принимать данные. При возврате функция производит приведение корректно)
+        std::cout << "Введите число" << std::endl;
+        std::cin >> par;
+        return par;
+    };
 std::string askStr(){
     std::string par;
     std::cout << "Введите..." << std::endl;
@@ -20,7 +27,7 @@ int printMass(double* mas, int sun1){
     for (int i = 0; i < sun1; i++) {
         std::cout << mas[i] << " ";
     }
-    std::cout << '\n';
+    std::cout << std::endl;
     return 0;
 };
 int printMass(float* mas, int sun1){
@@ -59,7 +66,7 @@ void create (float* masCre,int x){
     masCre = new (std::nothrow) float[size];
 
 };
-namespace srce {
+
 void randIncFloat (float* mas,int x) {
     srand(time(0));
     for (int i = 0; i < x; i++) {

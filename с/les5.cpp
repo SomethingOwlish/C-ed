@@ -61,13 +61,13 @@ int changeMas(int* mas, int q) {
 int un52(){
     int s = rand() % 25 +5; //Тут переменная для размера массива и рандомный размер массива в диапазоне от 5 до 25 (что бы не мало и не много)
 
-int un2list[s];
+    int un2list[s];
 
 //Тут генератор рандома, потому что мне лень да и при  рандомном размере как-то иначе не вижу удобного способа заполнить
 
-for (int i = 0; i < s; i++){
-    un2list[i] = 0 + rand() % 2;
-};
+    for (int i = 0; i < s; i++){
+        un2list[i] = 0 + rand() % 2;
+    };
 // Выводим на экран что есть
     printMass5(un2list, s);
 // Вызываем функцию замены
@@ -80,10 +80,10 @@ for (int i = 0; i < s; i++){
 //Решила записать массив и передать из массива в массив - так эе проще кажется)
 
 int un53(int* ar, int s){
-int un3Val[8] = {1, 4, 7, 10, 13, 16, 19, 22};
-for (int i = 0; i < s; i++){
-    ar[i] = un3Val[i];
-}; // Тут только сама функция, печать вызывается в майне)
+    int un3Val[8] = {1, 4, 7, 10, 13, 16, 19, 22};
+    for (int i = 0; i < s; i++){
+        ar[i] = un3Val[i];
+    }; // Тут только сама функция, печать вызывается в майне)
     return 0;
 };
 
@@ -91,26 +91,26 @@ for (int i = 0; i < s; i++){
 
 int un54(int*  list, int q, int move){
 
-if (move < 0) {
-    move = move * -1;
-    for (int cir = move; cir > 0; cir++) {
-        int tmp = list[q-1];
-        for (int i = q-1; i > 0; i--) {
-            list[i] = list[i - 1];
+    if (move < 0) {
+        move = move * -1;
+        for (int cir = move; cir > 0; cir++) {
+            int tmp = list[q-1];
+            for (int i = q-1; i > 0; i--) {
+                list[i] = list[i - 1];
+            }
+            list[0] = tmp;
         }
-        list[0] = tmp;
     }
-}
-else if (move > 0) {
-    for (int cir = move; cir > 0; cir--) {
-        int tmp = list[0];
-        for (int i = 0; i < q; i++) {
-            list[i] = list[i + 1];
+    else if (move > 0) {
+        for (int cir = move; cir > 0; cir--) {
+            int tmp = list[0];
+            for (int i = 0; i < q; i++) {
+                list[i] = list[i + 1];
+            }
+            list[q - 1] = tmp;
         }
-        list[q - 1] = tmp;
-    }
-} else{
-            std::cout << "Error! can't switch for 0" << std::endl;
+    } else{
+        std::cout << "Error! can't switch for 0" << std::endl;
 
     }
 
@@ -124,14 +124,14 @@ else if (move > 0) {
 int main5(){
     std::cout  << "Task 1" << '\n';
     //Задание 1, та часть что в майне
-   int s = ask5(); // Запрашиваем размер массива
+    int s = ask5(); // Запрашиваем размер массива
     srand (time(0));
     double mas[s];     // Создаем нужный массив
     //Теперь генерируем рандомные значения
-        for (int i = 0; i < s; i++){
-            mas[i]= ( fabs(sin(rand())) * 40 - 14 ) ;
-        }
-        // А теперь вызов )
+    for (int i = 0; i < s; i++){
+        mas[i]= ( fabs(sin(rand())) * 40 - 14 ) ;
+    }
+    // А теперь вызов )
     printMass5(mas, s);
     std::cout  << std::endl;
 

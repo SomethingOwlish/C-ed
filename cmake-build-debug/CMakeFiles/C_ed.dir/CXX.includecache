@@ -6,21 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/morganvalravn/Documents/Projects/C-ed/les6-7/les7.cpp
+/Users/morganvalravn/Documents/Projects/C-ed/oop/oop1.cpp
 iostream
 -
-fstream
+cmath
 -
-string
+cstdint
 -
 source.h
-/Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.h
-
-/Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.cpp
-iostream
+/Users/morganvalravn/Documents/Projects/C-ed/oop/source.h
+stack
 -
 
-/Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.h
+/Users/morganvalravn/Documents/Projects/C-ed/oop/source.h
 iostream
 -
 

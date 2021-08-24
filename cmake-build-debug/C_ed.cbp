@@ -75,34 +75,43 @@
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/ch/chall3.cpp">
 			<Option target="C_ed"/>
 		</Unit>
-		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les1/les1.cpp">
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/oop/oop1.cpp">
 			<Option target="C_ed"/>
 		</Unit>
-		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les2/les2.cpp">
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/oop/source.cpp">
 			<Option target="C_ed"/>
 		</Unit>
-		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les3/les3.cpp">
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/oop/source.h">
 			<Option target="C_ed"/>
 		</Unit>
-		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les3/valLes3.cpp">
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/с/les1.cpp">
 			<Option target="C_ed"/>
 		</Unit>
-		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les4/les4.cpp">
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/с/les2.cpp">
 			<Option target="C_ed"/>
 		</Unit>
-		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les5/les5.cpp">
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/с/les3.cpp">
 			<Option target="C_ed"/>
 		</Unit>
-		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les6-7/les6.cpp">
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/с/les4.cpp">
 			<Option target="C_ed"/>
 		</Unit>
-		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les6-7/les7.cpp">
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/с/les5.cpp">
 			<Option target="C_ed"/>
 		</Unit>
-		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.cpp">
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/с/les6.cpp">
 			<Option target="C_ed"/>
 		</Unit>
-		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.h">
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/с/les7.cpp">
+			<Option target="C_ed"/>
+		</Unit>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/с/sources.cpp">
+			<Option target="C_ed"/>
+		</Unit>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/с/sourses.h">
+			<Option target="C_ed"/>
+		</Unit>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/с/valLes3.cpp">
 			<Option target="C_ed"/>
 		</Unit>
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/CMakeLists.txt">

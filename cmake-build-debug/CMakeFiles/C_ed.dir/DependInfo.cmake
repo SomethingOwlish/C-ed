@@ -5,15 +5,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/morganvalravn/Documents/Projects/C-ed/ch/chall3.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/ch/chall3.cpp.o"
-  "/Users/morganvalravn/Documents/Projects/C-ed/les1/les1.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les1/les1.cpp.o"
-  "/Users/morganvalravn/Documents/Projects/C-ed/les2/les2.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les2/les2.cpp.o"
-  "/Users/morganvalravn/Documents/Projects/C-ed/les3/les3.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les3/les3.cpp.o"
-  "/Users/morganvalravn/Documents/Projects/C-ed/les3/valLes3.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les3/valLes3.cpp.o"
-  "/Users/morganvalravn/Documents/Projects/C-ed/les4/les4.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les4/les4.cpp.o"
-  "/Users/morganvalravn/Documents/Projects/C-ed/les5/les5.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les5/les5.cpp.o"
-  "/Users/morganvalravn/Documents/Projects/C-ed/les6-7/les6.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les6-7/les6.cpp.o"
-  "/Users/morganvalravn/Documents/Projects/C-ed/les6-7/les7.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les6-7/les7.cpp.o"
-  "/Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/les6-7/source.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/oop/oop1.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/oop/oop1.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/oop/source.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/oop/source.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/с/les1.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/с/les1.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/с/les2.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/с/les2.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/с/les3.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/с/les3.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/с/les4.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/с/les4.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/с/les5.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/с/les5.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/с/les6.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/с/les6.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/с/les7.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/с/les7.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/с/sources.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/с/sources.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/с/valLes3.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/с/valLes3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

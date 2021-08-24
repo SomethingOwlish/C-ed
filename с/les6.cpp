@@ -1,9 +1,8 @@
 #include <iostream>
 #include <fstream>
-int ask(); // В другом файле
-std::string askStr(); // В другом файле
-int printMass(int* mas, int s ); // В другом файле
-int printMassBig(int **mas, int s, int w ); // В другом файле
+#include "sourses.h"
+using namespace cSrce;
+
 void val(int* list,int sizeV); // Заполнители значений
 void valFor2(int** list, int x, int y); // Заполнители значений
 

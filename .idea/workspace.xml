@@ -5,13 +5,53 @@
       <config projectName="C_ed" targetName="C_ed" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3b3d2d-ebe4-4d24-af73-ac21c32b555d" name="Default Changelist" comment="6-7" />
+    <list default="true" id="7b3b3d2d-ebe4-4d24-af73-ac21c32b555d" name="Default Changelist" comment="6-7">
+      <change afterPath="$PROJECT_DIR$/oop/oop1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/с/les5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/с/sources.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/с/sourses.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/les1/les1.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/les2/les2.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/les3/les3.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/les3/valLes3.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/les4/les4.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/les5/les5.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/les6-7/les6.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/les6-7/les7.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/les6-7/source.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_ed.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_ed" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_ed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_ed.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_ed.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les1/les1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/с/les1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les2/les2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/с/les2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les3/les3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/с/les3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les3/valLes3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/с/valLes3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les4/les4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/с/les4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les5/les5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/les6-7/les6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/с/les6.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les6-7/les7.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/с/les7.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les6-7/source.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/oop/source.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les6-7/source.h" beforeDir="false" afterPath="$PROJECT_DIR$/oop/source.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +90,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/les1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -58,11 +99,15 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/bmplib/bitmap_test.cpp" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/les1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/les1" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/cmake-build-debug" />
       <recent name="$PROJECT_DIR$/les6" />
       <recent name="$PROJECT_DIR$/ch" />
-      <recent name="$PROJECT_DIR$/les1" />
     </key>
   </component>
   <component name="RunManager">
@@ -76,9 +121,9 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -101,6 +146,13 @@
       <workItem from="1628203909342" duration="23270000" />
       <workItem from="1628527334091" duration="8343000" />
       <workItem from="1628852381881" duration="12659000" />
+      <workItem from="1629031456316" duration="7040000" />
+      <workItem from="1629042743895" duration="581000" />
+      <workItem from="1629125806787" duration="1952000" />
+      <workItem from="1629196525063" duration="1208000" />
+      <workItem from="1629321452420" duration="3210000" />
+      <workItem from="1629578059769" duration="1657000" />
+      <workItem from="1629834163797" duration="12146000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1626720106589</created>

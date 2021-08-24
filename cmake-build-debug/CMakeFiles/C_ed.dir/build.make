@@ -76,70 +76,70 @@ include CMakeFiles/C_ed.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C_ed.dir/flags.make
 
-CMakeFiles/C_ed.dir/les1/les1.cpp.o: CMakeFiles/C_ed.dir/flags.make
-CMakeFiles/C_ed.dir/les1/les1.cpp.o: ../les1/les1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C_ed.dir/les1/les1.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/les1/les1.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/les1/les1.cpp
+CMakeFiles/C_ed.dir/с/les1.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/с/les1.cpp.o: ../с/les1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C_ed.dir/с/les1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/с/les1.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/с/les1.cpp
 
-CMakeFiles/C_ed.dir/les1/les1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/les1/les1.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/les1/les1.cpp > CMakeFiles/C_ed.dir/les1/les1.cpp.i
+CMakeFiles/C_ed.dir/с/les1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/с/les1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/с/les1.cpp > CMakeFiles/C_ed.dir/с/les1.cpp.i
 
-CMakeFiles/C_ed.dir/les1/les1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/les1/les1.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/les1/les1.cpp -o CMakeFiles/C_ed.dir/les1/les1.cpp.s
+CMakeFiles/C_ed.dir/с/les1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/с/les1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/с/les1.cpp -o CMakeFiles/C_ed.dir/с/les1.cpp.s
 
-CMakeFiles/C_ed.dir/les2/les2.cpp.o: CMakeFiles/C_ed.dir/flags.make
-CMakeFiles/C_ed.dir/les2/les2.cpp.o: ../les2/les2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C_ed.dir/les2/les2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/les2/les2.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/les2/les2.cpp
+CMakeFiles/C_ed.dir/с/les2.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/с/les2.cpp.o: ../с/les2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C_ed.dir/с/les2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/с/les2.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/с/les2.cpp
 
-CMakeFiles/C_ed.dir/les2/les2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/les2/les2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/les2/les2.cpp > CMakeFiles/C_ed.dir/les2/les2.cpp.i
+CMakeFiles/C_ed.dir/с/les2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/с/les2.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/с/les2.cpp > CMakeFiles/C_ed.dir/с/les2.cpp.i
 
-CMakeFiles/C_ed.dir/les2/les2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/les2/les2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/les2/les2.cpp -o CMakeFiles/C_ed.dir/les2/les2.cpp.s
+CMakeFiles/C_ed.dir/с/les2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/с/les2.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/с/les2.cpp -o CMakeFiles/C_ed.dir/с/les2.cpp.s
 
-CMakeFiles/C_ed.dir/les3/les3.cpp.o: CMakeFiles/C_ed.dir/flags.make
-CMakeFiles/C_ed.dir/les3/les3.cpp.o: ../les3/les3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C_ed.dir/les3/les3.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/les3/les3.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/les3/les3.cpp
+CMakeFiles/C_ed.dir/с/les3.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/с/les3.cpp.o: ../с/les3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C_ed.dir/с/les3.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/с/les3.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/с/les3.cpp
 
-CMakeFiles/C_ed.dir/les3/les3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/les3/les3.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/les3/les3.cpp > CMakeFiles/C_ed.dir/les3/les3.cpp.i
+CMakeFiles/C_ed.dir/с/les3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/с/les3.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/с/les3.cpp > CMakeFiles/C_ed.dir/с/les3.cpp.i
 
-CMakeFiles/C_ed.dir/les3/les3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/les3/les3.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/les3/les3.cpp -o CMakeFiles/C_ed.dir/les3/les3.cpp.s
+CMakeFiles/C_ed.dir/с/les3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/с/les3.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/с/les3.cpp -o CMakeFiles/C_ed.dir/с/les3.cpp.s
 
-CMakeFiles/C_ed.dir/les3/valLes3.cpp.o: CMakeFiles/C_ed.dir/flags.make
-CMakeFiles/C_ed.dir/les3/valLes3.cpp.o: ../les3/valLes3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/C_ed.dir/les3/valLes3.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/les3/valLes3.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/les3/valLes3.cpp
+CMakeFiles/C_ed.dir/с/valLes3.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/с/valLes3.cpp.o: ../с/valLes3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/C_ed.dir/с/valLes3.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/с/valLes3.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/с/valLes3.cpp
 
-CMakeFiles/C_ed.dir/les3/valLes3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/les3/valLes3.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/les3/valLes3.cpp > CMakeFiles/C_ed.dir/les3/valLes3.cpp.i
+CMakeFiles/C_ed.dir/с/valLes3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/с/valLes3.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/с/valLes3.cpp > CMakeFiles/C_ed.dir/с/valLes3.cpp.i
 
-CMakeFiles/C_ed.dir/les3/valLes3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/les3/valLes3.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/les3/valLes3.cpp -o CMakeFiles/C_ed.dir/les3/valLes3.cpp.s
+CMakeFiles/C_ed.dir/с/valLes3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/с/valLes3.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/с/valLes3.cpp -o CMakeFiles/C_ed.dir/с/valLes3.cpp.s
 
-CMakeFiles/C_ed.dir/les4/les4.cpp.o: CMakeFiles/C_ed.dir/flags.make
-CMakeFiles/C_ed.dir/les4/les4.cpp.o: ../les4/les4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/C_ed.dir/les4/les4.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/les4/les4.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/les4/les4.cpp
+CMakeFiles/C_ed.dir/с/les4.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/с/les4.cpp.o: ../с/les4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/C_ed.dir/с/les4.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/с/les4.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/с/les4.cpp
 
-CMakeFiles/C_ed.dir/les4/les4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/les4/les4.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/les4/les4.cpp > CMakeFiles/C_ed.dir/les4/les4.cpp.i
+CMakeFiles/C_ed.dir/с/les4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/с/les4.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/с/les4.cpp > CMakeFiles/C_ed.dir/с/les4.cpp.i
 
-CMakeFiles/C_ed.dir/les4/les4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/les4/les4.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/les4/les4.cpp -o CMakeFiles/C_ed.dir/les4/les4.cpp.s
+CMakeFiles/C_ed.dir/с/les4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/с/les4.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/с/les4.cpp -o CMakeFiles/C_ed.dir/с/les4.cpp.s
 
 CMakeFiles/C_ed.dir/ch/chall3.cpp.o: CMakeFiles/C_ed.dir/flags.make
 CMakeFiles/C_ed.dir/ch/chall3.cpp.o: ../ch/chall3.cpp
@@ -154,87 +154,117 @@ CMakeFiles/C_ed.dir/ch/chall3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/ch/chall3.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/ch/chall3.cpp -o CMakeFiles/C_ed.dir/ch/chall3.cpp.s
 
-CMakeFiles/C_ed.dir/les5/les5.cpp.o: CMakeFiles/C_ed.dir/flags.make
-CMakeFiles/C_ed.dir/les5/les5.cpp.o: ../les5/les5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/C_ed.dir/les5/les5.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/les5/les5.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/les5/les5.cpp
+CMakeFiles/C_ed.dir/с/les6.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/с/les6.cpp.o: ../с/les6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/C_ed.dir/с/les6.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/с/les6.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/с/les6.cpp
 
-CMakeFiles/C_ed.dir/les5/les5.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/les5/les5.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/les5/les5.cpp > CMakeFiles/C_ed.dir/les5/les5.cpp.i
+CMakeFiles/C_ed.dir/с/les6.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/с/les6.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/с/les6.cpp > CMakeFiles/C_ed.dir/с/les6.cpp.i
 
-CMakeFiles/C_ed.dir/les5/les5.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/les5/les5.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/les5/les5.cpp -o CMakeFiles/C_ed.dir/les5/les5.cpp.s
+CMakeFiles/C_ed.dir/с/les6.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/с/les6.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/с/les6.cpp -o CMakeFiles/C_ed.dir/с/les6.cpp.s
 
-CMakeFiles/C_ed.dir/les6-7/les6.cpp.o: CMakeFiles/C_ed.dir/flags.make
-CMakeFiles/C_ed.dir/les6-7/les6.cpp.o: ../les6-7/les6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/C_ed.dir/les6-7/les6.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/les6-7/les6.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/les6-7/les6.cpp
+CMakeFiles/C_ed.dir/oop/source.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/oop/source.cpp.o: ../oop/source.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/C_ed.dir/oop/source.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/oop/source.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/oop/source.cpp
 
-CMakeFiles/C_ed.dir/les6-7/les6.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/les6-7/les6.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/les6-7/les6.cpp > CMakeFiles/C_ed.dir/les6-7/les6.cpp.i
+CMakeFiles/C_ed.dir/oop/source.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/oop/source.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/oop/source.cpp > CMakeFiles/C_ed.dir/oop/source.cpp.i
 
-CMakeFiles/C_ed.dir/les6-7/les6.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/les6-7/les6.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/les6-7/les6.cpp -o CMakeFiles/C_ed.dir/les6-7/les6.cpp.s
+CMakeFiles/C_ed.dir/oop/source.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/oop/source.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/oop/source.cpp -o CMakeFiles/C_ed.dir/oop/source.cpp.s
 
-CMakeFiles/C_ed.dir/les6-7/source.cpp.o: CMakeFiles/C_ed.dir/flags.make
-CMakeFiles/C_ed.dir/les6-7/source.cpp.o: ../les6-7/source.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/C_ed.dir/les6-7/source.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/les6-7/source.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.cpp
+CMakeFiles/C_ed.dir/с/les7.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/с/les7.cpp.o: ../с/les7.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/C_ed.dir/с/les7.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/с/les7.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/с/les7.cpp
 
-CMakeFiles/C_ed.dir/les6-7/source.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/les6-7/source.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.cpp > CMakeFiles/C_ed.dir/les6-7/source.cpp.i
+CMakeFiles/C_ed.dir/с/les7.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/с/les7.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/с/les7.cpp > CMakeFiles/C_ed.dir/с/les7.cpp.i
 
-CMakeFiles/C_ed.dir/les6-7/source.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/les6-7/source.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/les6-7/source.cpp -o CMakeFiles/C_ed.dir/les6-7/source.cpp.s
+CMakeFiles/C_ed.dir/с/les7.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/с/les7.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/с/les7.cpp -o CMakeFiles/C_ed.dir/с/les7.cpp.s
 
-CMakeFiles/C_ed.dir/les6-7/les7.cpp.o: CMakeFiles/C_ed.dir/flags.make
-CMakeFiles/C_ed.dir/les6-7/les7.cpp.o: ../les6-7/les7.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/C_ed.dir/les6-7/les7.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/les6-7/les7.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/les6-7/les7.cpp
+CMakeFiles/C_ed.dir/oop/oop1.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/oop/oop1.cpp.o: ../oop/oop1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/C_ed.dir/oop/oop1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/oop/oop1.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/oop/oop1.cpp
 
-CMakeFiles/C_ed.dir/les6-7/les7.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/les6-7/les7.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/les6-7/les7.cpp > CMakeFiles/C_ed.dir/les6-7/les7.cpp.i
+CMakeFiles/C_ed.dir/oop/oop1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/oop/oop1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/oop/oop1.cpp > CMakeFiles/C_ed.dir/oop/oop1.cpp.i
 
-CMakeFiles/C_ed.dir/les6-7/les7.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/les6-7/les7.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/les6-7/les7.cpp -o CMakeFiles/C_ed.dir/les6-7/les7.cpp.s
+CMakeFiles/C_ed.dir/oop/oop1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/oop/oop1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/oop/oop1.cpp -o CMakeFiles/C_ed.dir/oop/oop1.cpp.s
+
+CMakeFiles/C_ed.dir/с/les5.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/с/les5.cpp.o: ../с/les5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/C_ed.dir/с/les5.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/с/les5.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/с/les5.cpp
+
+CMakeFiles/C_ed.dir/с/les5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/с/les5.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/с/les5.cpp > CMakeFiles/C_ed.dir/с/les5.cpp.i
+
+CMakeFiles/C_ed.dir/с/les5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/с/les5.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/с/les5.cpp -o CMakeFiles/C_ed.dir/с/les5.cpp.s
+
+CMakeFiles/C_ed.dir/с/sources.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/с/sources.cpp.o: ../с/sources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/C_ed.dir/с/sources.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/с/sources.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/с/sources.cpp
+
+CMakeFiles/C_ed.dir/с/sources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/с/sources.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/с/sources.cpp > CMakeFiles/C_ed.dir/с/sources.cpp.i
+
+CMakeFiles/C_ed.dir/с/sources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/с/sources.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/с/sources.cpp -o CMakeFiles/C_ed.dir/с/sources.cpp.s
 
 # Object files for target C_ed
 C_ed_OBJECTS = \
-"CMakeFiles/C_ed.dir/les1/les1.cpp.o" \
-"CMakeFiles/C_ed.dir/les2/les2.cpp.o" \
-"CMakeFiles/C_ed.dir/les3/les3.cpp.o" \
-"CMakeFiles/C_ed.dir/les3/valLes3.cpp.o" \
-"CMakeFiles/C_ed.dir/les4/les4.cpp.o" \
+"CMakeFiles/C_ed.dir/с/les1.cpp.o" \
+"CMakeFiles/C_ed.dir/с/les2.cpp.o" \
+"CMakeFiles/C_ed.dir/с/les3.cpp.o" \
+"CMakeFiles/C_ed.dir/с/valLes3.cpp.o" \
+"CMakeFiles/C_ed.dir/с/les4.cpp.o" \
 "CMakeFiles/C_ed.dir/ch/chall3.cpp.o" \
-"CMakeFiles/C_ed.dir/les5/les5.cpp.o" \
-"CMakeFiles/C_ed.dir/les6-7/les6.cpp.o" \
-"CMakeFiles/C_ed.dir/les6-7/source.cpp.o" \
-"CMakeFiles/C_ed.dir/les6-7/les7.cpp.o"
+"CMakeFiles/C_ed.dir/с/les6.cpp.o" \
+"CMakeFiles/C_ed.dir/oop/source.cpp.o" \
+"CMakeFiles/C_ed.dir/с/les7.cpp.o" \
+"CMakeFiles/C_ed.dir/oop/oop1.cpp.o" \
+"CMakeFiles/C_ed.dir/с/les5.cpp.o" \
+"CMakeFiles/C_ed.dir/с/sources.cpp.o"
 
 # External object files for target C_ed
 C_ed_EXTERNAL_OBJECTS =
 
-C_ed: CMakeFiles/C_ed.dir/les1/les1.cpp.o
-C_ed: CMakeFiles/C_ed.dir/les2/les2.cpp.o
-C_ed: CMakeFiles/C_ed.dir/les3/les3.cpp.o
-C_ed: CMakeFiles/C_ed.dir/les3/valLes3.cpp.o
-C_ed: CMakeFiles/C_ed.dir/les4/les4.cpp.o
+C_ed: CMakeFiles/C_ed.dir/с/les1.cpp.o
+C_ed: CMakeFiles/C_ed.dir/с/les2.cpp.o
+C_ed: CMakeFiles/C_ed.dir/с/les3.cpp.o
+C_ed: CMakeFiles/C_ed.dir/с/valLes3.cpp.o
+C_ed: CMakeFiles/C_ed.dir/с/les4.cpp.o
 C_ed: CMakeFiles/C_ed.dir/ch/chall3.cpp.o
-C_ed: CMakeFiles/C_ed.dir/les5/les5.cpp.o
-C_ed: CMakeFiles/C_ed.dir/les6-7/les6.cpp.o
-C_ed: CMakeFiles/C_ed.dir/les6-7/source.cpp.o
-C_ed: CMakeFiles/C_ed.dir/les6-7/les7.cpp.o
+C_ed: CMakeFiles/C_ed.dir/с/les6.cpp.o
+C_ed: CMakeFiles/C_ed.dir/oop/source.cpp.o
+C_ed: CMakeFiles/C_ed.dir/с/les7.cpp.o
+C_ed: CMakeFiles/C_ed.dir/oop/oop1.cpp.o
+C_ed: CMakeFiles/C_ed.dir/с/les5.cpp.o
+C_ed: CMakeFiles/C_ed.dir/с/sources.cpp.o
 C_ed: CMakeFiles/C_ed.dir/build.make
 C_ed: CMakeFiles/C_ed.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable C_ed"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable C_ed"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C_ed.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
