@@ -78,6 +78,9 @@
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/oop/oop1.cpp">
 			<Option target="C_ed"/>
 		</Unit>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/oop/oop2.cpp">
+			<Option target="C_ed"/>
+		</Unit>
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/oop/source.cpp">
 			<Option target="C_ed"/>
 		</Unit>

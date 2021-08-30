@@ -20,4 +20,5 @@ add_executable(C_ed
         oop/oop1.cpp
         с/les5.cpp
         с/sources.cpp
-        с/sourses.h)
+        с/sourses.h
+        oop/oop2.cpp)
