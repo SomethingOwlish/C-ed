@@ -11,6 +11,9 @@ CMakeFiles/C_ed.dir/ch/chall3.cpp.o: ../ch/chall3.cpp
 CMakeFiles/C_ed.dir/oop/oop1.cpp.o: ../oop/oop1.cpp
 CMakeFiles/C_ed.dir/oop/oop1.cpp.o: ../oop/source.h
 
+CMakeFiles/C_ed.dir/oop/oop2.cpp.o: ../oop/oop2.cpp
+CMakeFiles/C_ed.dir/oop/oop2.cpp.o: ../oop/source.h
+
 CMakeFiles/C_ed.dir/oop/source.cpp.o: ../oop/source.cpp
 
 CMakeFiles/C_ed.dir/с/les1.cpp.o: ../с/les1.cpp
