@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <cstdint>
-#include "source.h"
+
 
 //Задание 1
 class Figure{
@@ -15,10 +14,10 @@ public:
     double getP() const{
         return this->P;
     };
-    double getA(){
+    double getA() const{
         return this->a;
     };
-    double getH(){
+    double getH() const{
         return this->h;
     }
 };
@@ -36,7 +35,7 @@ Parallelogram(double a, double h){
     setA(a);
     setH(h);
 };
-    virtual double area(){
+    double area() override{
         S = getA() * getH();
         return S;
     };
@@ -48,7 +47,7 @@ public:
     Rectangle(double a, double h){
         setA(a);
         setH(h); };
-    virtual double area(){
+    double area() override{
         S = (getA()/2) * getH();
         return S;
     };
@@ -58,7 +57,7 @@ public:
     Square(double a){
         setA(a);
     };
-    virtual double area(){
+    double area() override{
         S = pow(getA(),2);
         return S;
     };
@@ -69,7 +68,7 @@ public:
   Rhombus(double a, double h){
       setA(a);
       setH(h);  };
-    virtual double area(){
+    double area() override{
         S = getA() * getH();
         return S;
     };
@@ -79,10 +78,10 @@ private:
     double r;
 
 public:
-  void  setR(double r){
-        this->r= r;
+  void  setR(double a){
+        this->r= a;
     };
-  double getR()
+  double getR() const
     {return r;
     };
 
@@ -90,7 +89,7 @@ public:
  setR(r);
  };
 
- virtual double area(){
+ double area() override{
         S = getP() * (pow(getR(), 2));
         return S;
     };
@@ -101,11 +100,11 @@ private:
     std::string company = "default";
     std::string model = "default";
 public:
-   void  setCompany(std::string company){
-        this->company = company;
+   void  setCompany(std::string com){
+        this->company = com;
     };
-    void  setModel(std::string model){
-        this->model = model;
+    void  setModel(std::string mod){
+        this->model = mod;
     }
      std::string getCompany() {
         return company;
@@ -164,14 +163,14 @@ public:
 
 //Задание 3
 int nodF(int a, int b){
-    if (a % b == 0)
-        return b;
-    if (b % a == 0)
-        return a;
-    if (a > b)
-        return (a%b, b);
-    return (a, b%a);
-}
+    if (a % b == 0){
+        return b;} else
+    if (b % a == 0){
+        return a;} else
+    if (a > b){
+        return (a%b, b);} else
+{ return (a, b%a);};
+};
 int lcm(int a, int b){
     return (a*b)/nodF(a,b);
 }
@@ -303,22 +302,22 @@ private:
     enum znach{
         no,
         tuz,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
+        dva,
+        three,
+        chetyre,
+        pyat,
+        six,
+        seven,
+        eight,
+        nine,
+        ten,
         valet,
         dama,
         korol
     };
 public:
     bool Flip(){
-    position = !position;}
+    position = !position;
 };
 std::string GetValue(int znach){
 
@@ -354,8 +353,8 @@ std::string GetValue(int znach){
             std::cout << "King";
         else
             std::cout << "Who knows!";
-    }
-}
+    };
+};
 int main(){
 //Тут хранится код, что бы проверить себя по задачам наглядной работой
     std::cout  << "Task 1" << '\n';
