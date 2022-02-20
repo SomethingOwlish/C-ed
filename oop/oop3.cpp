@@ -355,7 +355,7 @@ std::string GetValue(int znach){
             std::cout << "Who knows!";
     };
 };
-int main(){
+int main3(){
 //Тут хранится код, что бы проверить себя по задачам наглядной работой
     std::cout  << "Task 1" << '\n';
     Circle FirstTest(4);
