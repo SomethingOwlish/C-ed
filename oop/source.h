@@ -16,4 +16,5 @@ void create (float* masCre,int x);
     void randIncFloat (float* mas,int x);
 int count (float* masCou,int x);
 }
+class Card;
 #endif //C_ED_SOURCE_H

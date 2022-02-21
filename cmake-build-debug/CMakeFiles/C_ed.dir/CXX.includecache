@@ -6,9 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Users/morganvalravn/Documents/Projects/C-ed/oop/oop3.cpp
+/Users/morganvalravn/Documents/Projects/C-ed/oop/oop4.cpp
+cmath
+-
+cstdint
+-
+source.h
+/Users/morganvalravn/Documents/Projects/C-ed/oop/source.h
+vector
+-
+random
+-
+algorithm
+-
+iterator
+-
 iostream
 -
-cmath
+set
+-
+
+/Users/morganvalravn/Documents/Projects/C-ed/oop/source.h
+iostream
 -
 
