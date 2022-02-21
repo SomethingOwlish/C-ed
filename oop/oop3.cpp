@@ -286,78 +286,14 @@ Fraction(std::string a){
         std::string dFr =   numSt+"/"+denSt;
         return dFr;
     };
+
 };
 //задание 4
 
-class Card {
-private:
-    bool position;
-    enum mast{
-        Cgervi,
-        Bubi,
-        Trefi,
-        Kresti,
-        havent
-    };
-    enum znach{
-        no,
-        tuz,
-        dva,
-        three,
-        chetyre,
-        pyat,
-        six,
-        seven,
-        eight,
-        nine,
-        ten,
-        valet,
-        dama,
-        korol
-    };
-public:
-    bool Flip(){
-    position = !position;
-};
-std::string GetValue(int znach){
-
-        if (znach == 0)
-            std::cout << "no card";
-        else if (znach == 1)
-            std::cout << "Tuz";
-        else if (znach == 2)
-            std::cout << "2";
-        else if (znach == 3)
-            std::cout << "3";
-        else if (znach == 4)
-            std::cout << "4";
-        else if (znach == 5)
-            std::cout << "4";
-        else if (znach == 5)
-            std::cout << "4";
-        else if (znach == 6)
-            std::cout << "6";
-        else if (znach == 7)
-            std::cout << "7";
-        else if (znach == 8)
-            std::cout << "8";
-        else if (znach == 9)
-            std::cout << "9";
-        else if (znach == 10)
-            std::cout << "10";
-        else if (znach == 11)
-            std::cout << "Valet";
-        else if (znach == 12)
-            std::cout << "Queen";
-        else if (znach == 13)
-            std::cout << "King";
-        else
-            std::cout << "Who knows!";
-    };
-};
+//убрано в файл source
 int main3(){
 //Тут хранится код, что бы проверить себя по задачам наглядной работой
-    std::cout  << "Task 1" << '\n';
+    std::cout << "Task 1" << '\n';
     Circle FirstTest(4);
     std::cout << FirstTest.area() << std::endl;
     Parallelogram SecondTest(3,4);

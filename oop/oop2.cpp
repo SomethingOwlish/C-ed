@@ -1,7 +1,4 @@
 #include <iostream>
-#include <cmath>
-#include <cstdint>
-#include "source.h"
 // задание 1
 class Person{
 
@@ -186,7 +183,7 @@ public:
 
 int Collection::numberOdDeck = 0;
 
-class Card : public Collection{
+class Card2 : public Collection{
  int pointFromCard;
  std::string cardName;
  std::string cardColor;
@@ -200,7 +197,7 @@ class Card : public Collection{
     std::string getCardColor(){
         return cardColor;
     }
-    Card(std::string name, std::string col, int point){
+    Card2(std::string name, std::string col, int point){
         this->pointFromCard = point;
         this->cardColor = col;
         this->cardName = name;
