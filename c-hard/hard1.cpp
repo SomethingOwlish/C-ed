@@ -1,5 +1,32 @@
 #include "hardsource.h"
-struct Person;
+
+
+struct Person {
+    std::string firstName;
+    std::string lastName;
+    std::optional<std::string> fatherName;
+ friend bool operator<(const Person& p1, const Person& p2);
+ friend bool operator==(const Person& p1, const Person& p2);
+ friend std::ostream& operator<< (std::ostream &out, const Person &p);
+
+};
+
+std::ostream& operator<< (std::ostream &out, const Person &p){
+    out  << p.lastName << ", " << p.firstName << p.fatherName.value_or("");
+    return out;
+};
+
+bool operator<(const Person& p1, const Person& p2)
+{
+    return tie(p1.firstName, p1.lastName, p1.fatherName) <
+           tie(p2.firstName, p2.lastName, p2.fatherName);
+};
+bool operator==(const Person& p1, const Person& p2)
+{
+    return tie(p1.firstName, p1.lastName, p1.fatherName) <
+           tie(p2.firstName, p2.lastName, p2.fatherName);
+};
+
 struct PhoneNumber;
 class PhoneBook{
 
