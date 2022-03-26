@@ -6,27 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/morganvalravn/Documents/Projects/C-ed/oop/oop4.cpp
-cmath
--
-source.h
-/Users/morganvalravn/Documents/Projects/C-ed/oop/source.h
-vector
--
-random
--
-algorithm
--
-iterator
--
-iostream
--
-set
--
-cassert
--
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard1.cpp
+hardsource.h
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
 
-/Users/morganvalravn/Documents/Projects/C-ed/oop/source.h
-iostream
--
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
 

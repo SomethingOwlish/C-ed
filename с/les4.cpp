@@ -72,12 +72,12 @@ int un44(){
     std::cout << "Enter value" << std::endl ;
     std::cin >> val3;
 
-    for (x = 2; x<=sqrt(val3); x++) {
+   // for (x = 2; x<=sqrt(val3); x++) {
         if (val3 % x == 0) {
             std::cout << "false" << std::endl ; //В смысле не является простым числом
             return 0;
-        }
-    }
+        };
+
 
     std::cout << "true" << std::endl ; //В смысле "является простым числом"
     return 0;
