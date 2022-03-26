@@ -13,10 +13,16 @@ hardsource.h
 /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
 iostream
 -
+fstream
+-
 cstdint
 -
 string
 -
 optional
+-
+vector
+-
+tuple
 -
 
