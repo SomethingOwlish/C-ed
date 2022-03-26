@@ -6,17 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/morganvalravn/Documents/Projects/C-ed/oop/oop2.cpp
+/Users/morganvalravn/Documents/Projects/C-ed/oop/oop3.cpp
 iostream
 -
 cmath
--
-cstdint
--
-source.h
-/Users/morganvalravn/Documents/Projects/C-ed/oop/source.h
-
-/Users/morganvalravn/Documents/Projects/C-ed/oop/source.h
-iostream
 -
 

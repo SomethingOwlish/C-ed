@@ -14,6 +14,11 @@ CMakeFiles/C_ed.dir/oop/oop1.cpp.o: ../oop/source.h
 CMakeFiles/C_ed.dir/oop/oop2.cpp.o: ../oop/oop2.cpp
 CMakeFiles/C_ed.dir/oop/oop2.cpp.o: ../oop/source.h
 
+CMakeFiles/C_ed.dir/oop/oop3.cpp.o: ../oop/oop3.cpp
+
+CMakeFiles/C_ed.dir/oop/oop4.cpp.o: ../oop/oop4.cpp
+CMakeFiles/C_ed.dir/oop/oop4.cpp.o: ../oop/source.h
+
 CMakeFiles/C_ed.dir/oop/source.cpp.o: ../oop/source.cpp
 
 CMakeFiles/C_ed.dir/с/les1.cpp.o: ../с/les1.cpp

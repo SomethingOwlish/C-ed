@@ -223,6 +223,60 @@ oop/oop2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop2.cpp.s
 .PHONY : oop/oop2.cpp.s
 
+oop/oop3.o: oop/oop3.cpp.o
+
+.PHONY : oop/oop3.o
+
+# target to build an object file
+oop/oop3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop3.cpp.o
+.PHONY : oop/oop3.cpp.o
+
+oop/oop3.i: oop/oop3.cpp.i
+
+.PHONY : oop/oop3.i
+
+# target to preprocess a source file
+oop/oop3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop3.cpp.i
+.PHONY : oop/oop3.cpp.i
+
+oop/oop3.s: oop/oop3.cpp.s
+
+.PHONY : oop/oop3.s
+
+# target to generate assembly for a file
+oop/oop3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop3.cpp.s
+.PHONY : oop/oop3.cpp.s
+
+oop/oop4.o: oop/oop4.cpp.o
+
+.PHONY : oop/oop4.o
+
+# target to build an object file
+oop/oop4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop4.cpp.o
+.PHONY : oop/oop4.cpp.o
+
+oop/oop4.i: oop/oop4.cpp.i
+
+.PHONY : oop/oop4.i
+
+# target to preprocess a source file
+oop/oop4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop4.cpp.i
+.PHONY : oop/oop4.cpp.i
+
+oop/oop4.s: oop/oop4.cpp.s
+
+.PHONY : oop/oop4.s
+
+# target to generate assembly for a file
+oop/oop4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop4.cpp.s
+.PHONY : oop/oop4.cpp.s
+
 oop/source.o: oop/source.cpp.o
 
 .PHONY : oop/source.o
@@ -511,6 +565,12 @@ help:
 	@echo "... oop/oop2.o"
 	@echo "... oop/oop2.i"
 	@echo "... oop/oop2.s"
+	@echo "... oop/oop3.o"
+	@echo "... oop/oop3.i"
+	@echo "... oop/oop3.s"
+	@echo "... oop/oop4.o"
+	@echo "... oop/oop4.i"
+	@echo "... oop/oop4.s"
 	@echo "... oop/source.o"
 	@echo "... oop/source.i"
 	@echo "... oop/source.s"

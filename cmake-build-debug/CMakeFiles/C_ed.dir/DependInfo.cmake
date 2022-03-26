@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/morganvalravn/Documents/Projects/C-ed/ch/chall3.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/ch/chall3.cpp.o"
   "/Users/morganvalravn/Documents/Projects/C-ed/oop/oop1.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/oop/oop1.cpp.o"
   "/Users/morganvalravn/Documents/Projects/C-ed/oop/oop2.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/oop/oop2.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/oop/oop3.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/oop/oop3.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/oop/oop4.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/oop/oop4.cpp.o"
   "/Users/morganvalravn/Documents/Projects/C-ed/oop/source.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/oop/source.cpp.o"
   "/Users/morganvalravn/Documents/Projects/C-ed/с/les1.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/с/les1.cpp.o"
   "/Users/morganvalravn/Documents/Projects/C-ed/с/les2.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/с/les2.cpp.o"
