@@ -271,6 +271,45 @@ CMakeFiles/C_ed.dir/oop/oop4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/oop/oop4.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/oop/oop4.cpp -o CMakeFiles/C_ed.dir/oop/oop4.cpp.s
 
+CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o: ../c-hard/hardsource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.cpp
+
+CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.cpp > CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.i
+
+CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.cpp -o CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.s
+
+CMakeFiles/C_ed.dir/c-hard/hard1.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/c-hard/hard1.cpp.o: ../c-hard/hard1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/C_ed.dir/c-hard/hard1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/c-hard/hard1.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard1.cpp
+
+CMakeFiles/C_ed.dir/c-hard/hard1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/c-hard/hard1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard1.cpp > CMakeFiles/C_ed.dir/c-hard/hard1.cpp.i
+
+CMakeFiles/C_ed.dir/c-hard/hard1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/c-hard/hard1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard1.cpp -o CMakeFiles/C_ed.dir/c-hard/hard1.cpp.s
+
+CMakeFiles/C_ed.dir/oop/oop5.cpp.o: CMakeFiles/C_ed.dir/flags.make
+CMakeFiles/C_ed.dir/oop/oop5.cpp.o: ../oop/oop5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/C_ed.dir/oop/oop5.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_ed.dir/oop/oop5.cpp.o -c /Users/morganvalravn/Documents/Projects/C-ed/oop/oop5.cpp
+
+CMakeFiles/C_ed.dir/oop/oop5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_ed.dir/oop/oop5.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/morganvalravn/Documents/Projects/C-ed/oop/oop5.cpp > CMakeFiles/C_ed.dir/oop/oop5.cpp.i
+
+CMakeFiles/C_ed.dir/oop/oop5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_ed.dir/oop/oop5.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/morganvalravn/Documents/Projects/C-ed/oop/oop5.cpp -o CMakeFiles/C_ed.dir/oop/oop5.cpp.s
+
 # Object files for target C_ed
 C_ed_OBJECTS = \
 "CMakeFiles/C_ed.dir/с/les1.cpp.o" \
@@ -287,7 +326,10 @@ C_ed_OBJECTS = \
 "CMakeFiles/C_ed.dir/с/sources.cpp.o" \
 "CMakeFiles/C_ed.dir/oop/oop2.cpp.o" \
 "CMakeFiles/C_ed.dir/oop/oop3.cpp.o" \
-"CMakeFiles/C_ed.dir/oop/oop4.cpp.o"
+"CMakeFiles/C_ed.dir/oop/oop4.cpp.o" \
+"CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o" \
+"CMakeFiles/C_ed.dir/c-hard/hard1.cpp.o" \
+"CMakeFiles/C_ed.dir/oop/oop5.cpp.o"
 
 # External object files for target C_ed
 C_ed_EXTERNAL_OBJECTS =
@@ -307,9 +349,12 @@ C_ed: CMakeFiles/C_ed.dir/с/sources.cpp.o
 C_ed: CMakeFiles/C_ed.dir/oop/oop2.cpp.o
 C_ed: CMakeFiles/C_ed.dir/oop/oop3.cpp.o
 C_ed: CMakeFiles/C_ed.dir/oop/oop4.cpp.o
+C_ed: CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o
+C_ed: CMakeFiles/C_ed.dir/c-hard/hard1.cpp.o
+C_ed: CMakeFiles/C_ed.dir/oop/oop5.cpp.o
 C_ed: CMakeFiles/C_ed.dir/build.make
 C_ed: CMakeFiles/C_ed.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable C_ed"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable C_ed"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C_ed.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

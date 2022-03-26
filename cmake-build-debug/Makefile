@@ -142,6 +142,60 @@ C_ed/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/build
 .PHONY : C_ed/fast
 
+c-hard/hard1.o: c-hard/hard1.cpp.o
+
+.PHONY : c-hard/hard1.o
+
+# target to build an object file
+c-hard/hard1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard1.cpp.o
+.PHONY : c-hard/hard1.cpp.o
+
+c-hard/hard1.i: c-hard/hard1.cpp.i
+
+.PHONY : c-hard/hard1.i
+
+# target to preprocess a source file
+c-hard/hard1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard1.cpp.i
+.PHONY : c-hard/hard1.cpp.i
+
+c-hard/hard1.s: c-hard/hard1.cpp.s
+
+.PHONY : c-hard/hard1.s
+
+# target to generate assembly for a file
+c-hard/hard1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard1.cpp.s
+.PHONY : c-hard/hard1.cpp.s
+
+c-hard/hardsource.o: c-hard/hardsource.cpp.o
+
+.PHONY : c-hard/hardsource.o
+
+# target to build an object file
+c-hard/hardsource.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o
+.PHONY : c-hard/hardsource.cpp.o
+
+c-hard/hardsource.i: c-hard/hardsource.cpp.i
+
+.PHONY : c-hard/hardsource.i
+
+# target to preprocess a source file
+c-hard/hardsource.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.i
+.PHONY : c-hard/hardsource.cpp.i
+
+c-hard/hardsource.s: c-hard/hardsource.cpp.s
+
+.PHONY : c-hard/hardsource.s
+
+# target to generate assembly for a file
+c-hard/hardsource.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.s
+.PHONY : c-hard/hardsource.cpp.s
+
 ch/chall3.o: ch/chall3.cpp.o
 
 .PHONY : ch/chall3.o
@@ -276,6 +330,33 @@ oop/oop4.s: oop/oop4.cpp.s
 oop/oop4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop4.cpp.s
 .PHONY : oop/oop4.cpp.s
+
+oop/oop5.o: oop/oop5.cpp.o
+
+.PHONY : oop/oop5.o
+
+# target to build an object file
+oop/oop5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop5.cpp.o
+.PHONY : oop/oop5.cpp.o
+
+oop/oop5.i: oop/oop5.cpp.i
+
+.PHONY : oop/oop5.i
+
+# target to preprocess a source file
+oop/oop5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop5.cpp.i
+.PHONY : oop/oop5.cpp.i
+
+oop/oop5.s: oop/oop5.cpp.s
+
+.PHONY : oop/oop5.s
+
+# target to generate assembly for a file
+oop/oop5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop5.cpp.s
+.PHONY : oop/oop5.cpp.s
 
 oop/source.o: oop/source.cpp.o
 
@@ -556,6 +637,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_ed"
+	@echo "... c-hard/hard1.o"
+	@echo "... c-hard/hard1.i"
+	@echo "... c-hard/hard1.s"
+	@echo "... c-hard/hardsource.o"
+	@echo "... c-hard/hardsource.i"
+	@echo "... c-hard/hardsource.s"
 	@echo "... ch/chall3.o"
 	@echo "... ch/chall3.i"
 	@echo "... ch/chall3.s"
@@ -571,6 +658,9 @@ help:
 	@echo "... oop/oop4.o"
 	@echo "... oop/oop4.i"
 	@echo "... oop/oop4.s"
+	@echo "... oop/oop5.o"
+	@echo "... oop/oop5.i"
+	@echo "... oop/oop5.s"
 	@echo "... oop/source.o"
 	@echo "... oop/source.i"
 	@echo "... oop/source.s"

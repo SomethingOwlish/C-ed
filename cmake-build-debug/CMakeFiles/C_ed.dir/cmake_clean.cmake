@@ -1,9 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/C_ed.dir/c-hard/hard1.cpp.o"
+  "CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o"
   "CMakeFiles/C_ed.dir/ch/chall3.cpp.o"
   "CMakeFiles/C_ed.dir/oop/oop1.cpp.o"
   "CMakeFiles/C_ed.dir/oop/oop2.cpp.o"
   "CMakeFiles/C_ed.dir/oop/oop3.cpp.o"
   "CMakeFiles/C_ed.dir/oop/oop4.cpp.o"
+  "CMakeFiles/C_ed.dir/oop/oop5.cpp.o"
   "CMakeFiles/C_ed.dir/oop/source.cpp.o"
   "CMakeFiles/C_ed.dir/с/les1.cpp.o"
   "CMakeFiles/C_ed.dir/с/les2.cpp.o"

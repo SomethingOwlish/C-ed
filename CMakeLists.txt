@@ -9,7 +9,6 @@ add_executable(C_ed
         с/les3.cpp
         с/valLes3.cpp
         с/les4.cpp
-
         ch/chall3.cpp
         c_ed_headers.h
         ch/bitmap_image.hpp
@@ -23,4 +22,8 @@ add_executable(C_ed
         с/sourses.h
         oop/oop2.cpp
         oop/oop3.cpp
-        oop/oop4.cpp)
+        oop/oop4.cpp
+        c-hard/hardsource.cpp
+        c-hard/hardsource.h
+        c-hard/hard1.cpp
+        oop/oop5.cpp)
