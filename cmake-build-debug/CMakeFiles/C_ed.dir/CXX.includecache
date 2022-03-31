@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard1.cpp
-hardsource.h
-/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
-
-/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard2.cpp
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.cpp
 hardsource.h
 /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
 
@@ -22,6 +18,10 @@ fstream
 algorithm
 -
 iomanip
+-
+thread
+-
+chrono
 -
 cstdint
 -
