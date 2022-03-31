@@ -6,6 +6,7 @@
 #define C_ED_HARDSOURCE_H
 #include <iostream>
 #include <fstream>
+#include <algorithm>
 #include <cstdint>
 #include <string>
 #include <optional>

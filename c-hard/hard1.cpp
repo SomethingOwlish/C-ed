@@ -37,7 +37,11 @@ struct PhoneNumber{
     friend std::ostream& operator<< (std::ostream &out, const PhoneNumber &p);
 };
 std::ostream& operator<< (std::ostream &out, const PhoneNumber &p){
-    std::string addN = std::to_string(p.addNumber.value_or(0));
+    std::string addN;
+    if (p.addNumber){
+        std::to_string(p.addNumber.value());}
+    else {addN = "";};
+
     out  << p.countryCode << "(" << p.cityCode << ")" <<  p.number << " " << addN;
     return out;
 };
@@ -52,14 +56,16 @@ bool operator==(const PhoneNumber& p1, const PhoneNumber& p2)
            tie(p2.countryCode, p2.cityCode, p2.number, p2.addNumber);
 };
 
+typedef std::tuple<std::string, PhoneNumber> phonePair;
 
 class PhoneBook{
 private:
     std::vector<std::pair<Person, PhoneNumber>> bookPh;
+
 public:
     friend std::ostream& operator<< (std::ostream &out, const PhoneBook &p);
     PhoneBook(std::ifstream & file){
-        this->bookPh.clear();
+        bookPh.clear();
         if(file.is_open()){
             int s = 0;
             int bookSize = 1;
@@ -95,10 +101,10 @@ public:
                 };
 
                 Person tempPerson {lName, fName, faName};
-                std::cout << tempPerson;
                 PhoneNumber tempPhone {atoi(cCode.c_str()),atoi(ciCode.c_str()),num,atoi(addNum.c_str())};
                 std::pair<Person, PhoneNumber> tempPair(tempPerson, tempPhone);
-
+                std::cout << tempPerson;
+                std::cout << tempPair.first << " " << tempPair.second << std::endl;
                 bookPh.resize(bookSize);
                 bookSize++;
 
@@ -111,13 +117,38 @@ public:
         };
     };
 
+    void SortByPhone(){
+
+       std::sort(bookPh.begin(), bookPh.end(),
+               [](std::pair<Person, PhoneNumber> p1, std::pair<Person, PhoneNumber> p2)
+               {return p1.second < p2.second; });
+
+    };
+    void SortByName(){
+
+        std::sort(bookPh.begin(), bookPh.end(),
+                [](std::pair<Person, PhoneNumber> p1, std::pair<Person, PhoneNumber> p2)
+                {return p1.first < p2.first; });
+
+    };
+
+    phonePair GetPhoneNumber(std::string name){
+        int count;
+        std::for_each(bookPh.begin(), bookPh.end(),  );
+
+        phonePair getPhonePair;
+   return getPhonePair; };
 
 
 };
 std::ostream& operator<< (std::ostream &out, const PhoneBook &p) {
-    for (const auto&[person, phone] : p.bookPh) {
-        out << person << " " << phone << std::endl;
-    };
+ //   for (const auto&[person, phone] : p.bookPh) {
+ //       out << person << " " << phone << std::endl;
+//};
+int i = p.bookPh.size();
+for (int e = 0; e<=i; e++){
+    out << p.bookPh[e].first << " " << p.bookPh[e].second << std::endl;
+}
 
     return out;
 };
@@ -130,29 +161,29 @@ using namespace std;
     PhoneBook book(file);
      cout << book;
        cout << "------SortByPhone-------" << endl;
-     /*      book.SortByPhone();
+       book.SortByPhone();
        cout << book;
-       cout << "------SortByName--------" << endl;
-       book.SortByName();
-       cout << book;
-       cout << "-----GetPhoneNumber-----" << endl;
-   // лямбда функция, которая принимает фамилию и выводит номер телефона этого человека, либо строку с ошибкой
-       auto print_phone_number = [&book](const string& surname) {
-           cout << surname << "\t";
-           auto answer = book.GetPhoneNumber(surname);
-           if (get<0>(answer).empty())
-               cout << get<1>(answer);
-           else
-               cout << get<0>(answer);
-           cout << endl;
-       };
+     cout << "------SortByName--------" << endl;
+   book.SortByName();
+   cout << book;
+   cout << "-----GetPhoneNumber-----" << endl;
+/// лямбда функция, которая принимает фамилию и выводит номер телефона этого человека, либо строку с ошибкой
+    /*  auto print_phone_number = [&book](const string& surname) {
+          cout << surname << "\t";
+          auto answer = book.GetPhoneNumber(surname);
+          if (get<0>(answer).empty())
+              cout << get<1>(answer);
+          else
+              cout << get<0>(answer);
+          cout << endl;
+      };
    // вызовы лямбды
-       print_phone_number("Ivanov");
-       print_phone_number("Petrov");
-       cout << "----ChangePhoneNumber----" << endl;
-       book.ChangePhoneNumber(Person{ "Kotov", "Vasilii", "Eliseevich" },
-                              PhoneNumber{7, 123, "15344458", nullopt});
-       book.ChangePhoneNumber(Person{ "Mironova", "Margarita", "Vladimirovna" },
-                              PhoneNumber{ 16, 465, "9155448", 13 });
-       cout << book; */
+      print_phone_number("Ivanov");
+      print_phone_number("Petrov");
+      cout << "----ChangePhoneNumber----" << endl;
+      book.ChangePhoneNumber(Person{ "Kotov", "Vasilii", "Eliseevich" },
+                             PhoneNumber{7, 123, "15344458", nullopt});
+      book.ChangePhoneNumber(Person{ "Mironova", "Margarita", "Vladimirovna" },
+                             PhoneNumber{ 16, 465, "9155448", 13 });
+      cout << book; */
 };
