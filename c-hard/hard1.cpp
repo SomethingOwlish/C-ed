@@ -180,7 +180,7 @@ std::ostream& operator<<(std::ostream &out, const PhoneBook &p)
     return out;
 }
 
-int main(){
+int mainh1(){
 using namespace std;
     ifstream file("PhoneBook.txt"); // путь к файлу PhoneBook.txt
     PhoneBook book(file);
