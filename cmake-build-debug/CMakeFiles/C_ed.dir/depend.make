@@ -7,6 +7,9 @@ CMakeFiles/C_ed.dir/c-hard/hard1.cpp.o: ../c-hard/hardsource.h
 CMakeFiles/C_ed.dir/c-hard/hard2.cpp.o: ../c-hard/hard2.cpp
 CMakeFiles/C_ed.dir/c-hard/hard2.cpp.o: ../c-hard/hardsource.h
 
+CMakeFiles/C_ed.dir/c-hard/hard3.cpp.o: ../c-hard/hard3.cpp
+CMakeFiles/C_ed.dir/c-hard/hard3.cpp.o: ../c-hard/hardsource.h
+
 CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o: ../c-hard/hardsource.cpp
 CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o: ../c-hard/hardsource.h
 

@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard1.cpp
+hardsource.h
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
+
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard2.cpp
+hardsource.h
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
+
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard3.cpp
+hardsource.h
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
+
 /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.cpp
 hardsource.h
 /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
@@ -23,6 +35,8 @@ thread
 -
 chrono
 -
+iterator
+-
 cstdint
 -
 string
@@ -34,5 +48,7 @@ optional
 vector
 -
 tuple
+-
+list
 -
 
