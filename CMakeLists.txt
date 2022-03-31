@@ -26,4 +26,4 @@ add_executable(C_ed
         c-hard/hardsource.cpp
         c-hard/hardsource.h
         c-hard/hard1.cpp
-        oop/oop5.cpp)
+        oop/oop5.cpp c-hard/hard2.cpp)

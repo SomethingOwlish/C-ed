@@ -7,8 +7,10 @@
 #include <iostream>
 #include <fstream>
 #include <algorithm>
+#include <iomanip>
 #include <cstdint>
 #include <string>
+#include <sstream>
 #include <optional>
 #include <vector>
 #include <tuple>
