@@ -8,10 +8,22 @@
 #include <fstream>
 #include <algorithm>
 #include <iomanip>
+#include <thread>
+#include <chrono>
 #include <cstdint>
 #include <string>
 #include <sstream>
 #include <optional>
 #include <vector>
 #include <tuple>
+
+void showVector( std::vector<int>&a);
+void showVectorLink( std::vector<int*>&a);
+class timer {
+    clock_t start;
+    clock_t stop;
+public:
+    void startTimer();
+    void stopTimer();
+};
 #endif //C_ED_HARDSOURCE_H
