@@ -11,4 +11,24 @@ hardsource.h
 /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
 
 /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
+iostream
+-
+fstream
+-
+algorithm
+-
+iomanip
+-
+cstdint
+-
+string
+-
+sstream
+-
+optional
+-
+vector
+-
+tuple
+-
 

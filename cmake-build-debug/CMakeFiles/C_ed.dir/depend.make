@@ -4,6 +4,9 @@
 CMakeFiles/C_ed.dir/c-hard/hard1.cpp.o: ../c-hard/hard1.cpp
 CMakeFiles/C_ed.dir/c-hard/hard1.cpp.o: ../c-hard/hardsource.h
 
+CMakeFiles/C_ed.dir/c-hard/hard2.cpp.o: ../c-hard/hard2.cpp
+CMakeFiles/C_ed.dir/c-hard/hard2.cpp.o: ../c-hard/hardsource.h
+
 CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o: ../c-hard/hardsource.cpp
 
 CMakeFiles/C_ed.dir/ch/chall3.cpp.o: ../ch/EasyBMP_1.06/EasyBMP.h
