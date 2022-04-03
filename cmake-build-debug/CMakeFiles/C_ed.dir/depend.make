@@ -13,6 +13,9 @@ CMakeFiles/C_ed.dir/c-hard/hard3.cpp.o: ../c-hard/hardsource.h
 CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o: ../c-hard/hardsource.cpp
 CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o: ../c-hard/hardsource.h
 
+CMakeFiles/C_ed.dir/c-hard/hatd4.cpp.o: ../c-hard/hardsource.h
+CMakeFiles/C_ed.dir/c-hard/hatd4.cpp.o: ../c-hard/hatd4.cpp
+
 CMakeFiles/C_ed.dir/ch/chall3.cpp.o: ../ch/EasyBMP_1.06/EasyBMP.h
 CMakeFiles/C_ed.dir/ch/chall3.cpp.o: ../ch/EasyBMP_1.06/EasyBMP_BMP.h
 CMakeFiles/C_ed.dir/ch/chall3.cpp.o: ../ch/EasyBMP_1.06/EasyBMP_DataStructures.h
@@ -31,6 +34,7 @@ CMakeFiles/C_ed.dir/oop/oop4.cpp.o: ../oop/oop4.cpp
 CMakeFiles/C_ed.dir/oop/oop4.cpp.o: ../oop/source.h
 
 CMakeFiles/C_ed.dir/oop/oop5.cpp.o: ../oop/oop5.cpp
+CMakeFiles/C_ed.dir/oop/oop5.cpp.o: ../oop/source.h
 
 CMakeFiles/C_ed.dir/oop/source.cpp.o: ../oop/source.cpp
 

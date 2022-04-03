@@ -169,7 +169,7 @@ class iterarorTask3{
 
 };
 
-int main(){
+int mainh3(){
     srand(time(0));
     std::cout  << "Task 1" << '\n';
     std::list<float> taskOne;
