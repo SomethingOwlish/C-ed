@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard3.cpp
-hardsource.h
-/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
-
 /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
 iostream
 -
@@ -18,6 +14,8 @@ fstream
 algorithm
 -
 iomanip
+-
+math.h
 -
 thread
 -
@@ -39,4 +37,8 @@ tuple
 -
 list
 -
+
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hatd4.cpp
+hardsource.h
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
 

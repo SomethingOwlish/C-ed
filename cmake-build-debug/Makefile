@@ -250,6 +250,33 @@ c-hard/hardsource.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.s
 .PHONY : c-hard/hardsource.cpp.s
 
+c-hard/hatd4.o: c-hard/hatd4.cpp.o
+
+.PHONY : c-hard/hatd4.o
+
+# target to build an object file
+c-hard/hatd4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hatd4.cpp.o
+.PHONY : c-hard/hatd4.cpp.o
+
+c-hard/hatd4.i: c-hard/hatd4.cpp.i
+
+.PHONY : c-hard/hatd4.i
+
+# target to preprocess a source file
+c-hard/hatd4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hatd4.cpp.i
+.PHONY : c-hard/hatd4.cpp.i
+
+c-hard/hatd4.s: c-hard/hatd4.cpp.s
+
+.PHONY : c-hard/hatd4.s
+
+# target to generate assembly for a file
+c-hard/hatd4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hatd4.cpp.s
+.PHONY : c-hard/hatd4.cpp.s
+
 ch/chall3.o: ch/chall3.cpp.o
 
 .PHONY : ch/chall3.o
@@ -703,6 +730,9 @@ help:
 	@echo "... c-hard/hardsource.o"
 	@echo "... c-hard/hardsource.i"
 	@echo "... c-hard/hardsource.s"
+	@echo "... c-hard/hatd4.o"
+	@echo "... c-hard/hatd4.i"
+	@echo "... c-hard/hatd4.s"
 	@echo "... ch/chall3.o"
 	@echo "... ch/chall3.i"
 	@echo "... ch/chall3.s"
