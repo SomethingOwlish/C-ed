@@ -196,6 +196,33 @@ c-hard/hard2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard2.cpp.s
 .PHONY : c-hard/hard2.cpp.s
 
+c-hard/hard3.o: c-hard/hard3.cpp.o
+
+.PHONY : c-hard/hard3.o
+
+# target to build an object file
+c-hard/hard3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard3.cpp.o
+.PHONY : c-hard/hard3.cpp.o
+
+c-hard/hard3.i: c-hard/hard3.cpp.i
+
+.PHONY : c-hard/hard3.i
+
+# target to preprocess a source file
+c-hard/hard3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard3.cpp.i
+.PHONY : c-hard/hard3.cpp.i
+
+c-hard/hard3.s: c-hard/hard3.cpp.s
+
+.PHONY : c-hard/hard3.s
+
+# target to generate assembly for a file
+c-hard/hard3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard3.cpp.s
+.PHONY : c-hard/hard3.cpp.s
+
 c-hard/hardsource.o: c-hard/hardsource.cpp.o
 
 .PHONY : c-hard/hardsource.o
@@ -670,6 +697,9 @@ help:
 	@echo "... c-hard/hard2.o"
 	@echo "... c-hard/hard2.i"
 	@echo "... c-hard/hard2.s"
+	@echo "... c-hard/hard3.o"
+	@echo "... c-hard/hard3.i"
+	@echo "... c-hard/hard3.s"
 	@echo "... c-hard/hardsource.o"
 	@echo "... c-hard/hardsource.i"
 	@echo "... c-hard/hardsource.s"

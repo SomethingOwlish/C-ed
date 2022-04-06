@@ -79,7 +79,7 @@ void foWay(std::string file)
 };
 
 
-int main(){
+int mainh2(){
     std::srand(0);
     std::cout  << "Task 1" << '\n';
     int a = rand() % 10 +1;

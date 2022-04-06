@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/C_ed.dir/c-hard/hard1.cpp.o"
   "CMakeFiles/C_ed.dir/c-hard/hard2.cpp.o"
+  "CMakeFiles/C_ed.dir/c-hard/hard3.cpp.o"
   "CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o"
   "CMakeFiles/C_ed.dir/ch/chall3.cpp.o"
   "CMakeFiles/C_ed.dir/oop/oop1.cpp.o"
