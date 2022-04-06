@@ -32,7 +32,7 @@ void anToCif(){
     std::cout << "Errors: " << error << std::endl;
 }
 
-int main(){
+int mainh4(){
     srand(time(0));
     std::cout  << "Task 1" << '\n';
     std::vector<int> taskOne;
