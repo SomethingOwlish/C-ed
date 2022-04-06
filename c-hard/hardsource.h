@@ -8,6 +8,7 @@
 #include <fstream>
 #include <algorithm>
 #include <iomanip>
+#include <math.h>
 #include <thread>
 #include <chrono>
 #include <iterator>
