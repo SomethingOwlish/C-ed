@@ -6,12 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard5.cpp
+hardsource.h
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
+
 /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
 iostream
 -
 fstream
 -
 algorithm
+-
+unordered_set
+-
+unordered_map
 -
 iomanip
 -
@@ -37,8 +45,4 @@ tuple
 -
 list
 -
-
-/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hatd4.cpp
-hardsource.h
-/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
 
