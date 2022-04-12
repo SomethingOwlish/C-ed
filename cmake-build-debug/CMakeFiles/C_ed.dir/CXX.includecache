@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard5.cpp
+/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard6.cpp
 hardsource.h
 /Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.h
 
@@ -16,6 +16,8 @@ iostream
 fstream
 -
 algorithm
+-
+mutex
 -
 unordered_set
 -
@@ -38,6 +40,8 @@ string
 sstream
 -
 optional
+-
+future
 -
 vector
 -

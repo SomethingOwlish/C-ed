@@ -28,4 +28,4 @@ add_executable(C_ed
         c-hard/hard1.cpp
         oop/oop5.cpp c-hard/hard2.cpp
 
-        c-hard/hard3.cpp c-hard/hatd4.cpp c-hard/hard5.cpp)
+        c-hard/hard3.cpp c-hard/hatd4.cpp c-hard/hard5.cpp c-hard/hard6.cpp)

@@ -47,7 +47,7 @@ void reader (std::unordered_multimap<std::string, int> &book) {
             };
         };
     };
-};
+
 
 void printBook(std::unordered_multimap<std::string, int> &book){
     for_each(book.begin(), book.end(),
@@ -63,7 +63,7 @@ void printBook(std::unordered_multimap<std::string, int> &book){
  */
 
 
-int main(){
+int mainh5(){
     srand(time(0));
     std::cout  << "Task 1" << '\n';
     std::vector<std::string> VectorfWord {"Кот", "Пес", "Кот", "Кроль", "Лиса"};

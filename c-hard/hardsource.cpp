@@ -1,10 +1,9 @@
 
 #include "hardsource.h"
 
-template <typename t>
-void showVector( std::vector<t>a)
+void showVector( std::vector<int>a)
 {
-    for (typename std::vector<t>::iterator it = a.begin() ; it!=a.end() ; ++it)
+    for (typename std::vector<int>::iterator it = a.begin() ; it!=a.end() ; ++it)
         std::cout << *it;
 };
 
@@ -24,9 +23,12 @@ void showList(std::list<float>a){
 
     void timer::startTimer(){
         start = clock();
+
     };
+
 
     void timer::stopTimer(){
         stop = clock();
         std::cout << "Time: " << stop - start << std::endl;
     };
+
