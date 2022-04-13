@@ -218,7 +218,7 @@ void thief(Home &h){
     } while (h.isAviable());
 };
 
-int main(){
+int mainh6(){
     srand(time(0));
     std::cout  << "Task 1" << '\n';
     std::thread th1(printTest, 1);

@@ -2,6 +2,7 @@
 // Created by Morgan Valravn on 26.03.2022.
 //
 
+
 #ifndef C_ED_HARDSOURCE_H
 #define C_ED_HARDSOURCE_H
 #include <iostream>
@@ -22,6 +23,7 @@
 #include <future>
 #include <vector>
 #include <tuple>
+#include <numeric>
 #include <list>
 
 void showVector( std::vector<int> a);

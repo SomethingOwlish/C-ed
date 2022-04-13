@@ -43,7 +43,10 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_ed"/>
 					<CompileFile command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -57,7 +60,10 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_ed/fast"/>
 					<CompileFile command="/usr/bin/make -f &quot;/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -79,6 +85,9 @@
 			<Option target="C_ed"/>
 		</Unit>
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard6.cpp">
+			<Option target="C_ed"/>
+		</Unit>
+		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard7.cpp">
 			<Option target="C_ed"/>
 		</Unit>
 		<Unit filename="/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.cpp">
