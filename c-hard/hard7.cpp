@@ -98,25 +98,25 @@
     };
 
 
-int main() {
+int mainh7() {
     srand(time(0));
 
-    studentList::FullName Owl;
-    Owl.set_name("Anna");
-    Owl.set_surname("Sova");
-    Owl.set_fathername("Andreevna");
- /*
-    studentList::Student s;
-    *s.mutable_full_name() = Owl;
-    s.add_marks(rand() % 5 +1);
-    s.add_marks(rand() % 5 +1);
-    s.add_marks(rand() % 5 +1);
-    s.add_marks(rand() % 5 +1);
-    s.add_marks(rand() % 5 +1);
-    s.add_marks(rand() % 5 +1);
-    s.add_marks(rand() % 5 +1);
-    s.add_marks(rand() % 5 +1);
-    s.set_median(std::accumulate(s.marks().begin(), s.marks().end(), 0) / s.marks().size());
+    /*   studentList::FullName Owl;
+       Owl.set_name("Anna");
+       Owl.set_surname("Sova");
+       Owl.set_fathername("Andrena");
+    /*
+       studentList::Student s;
+       *s.mutable_full_name() = Owl;
+       s.add_marks(rand() % 5 +1);
+       s.add_marks(rand() % 5 +1);
+       s.add_marks(rand() % 5 +1);
+       s.add_marks(rand() % 5 +1);
+       s.add_marks(rand() % 5 +1);
+       s.add_marks(rand() % 5 +1);
+       s.add_marks(rand() % 5 +1);
+       s.add_marks(rand() % 5 +1);
+       s.set_median(std::accumulate(s.marks().begin(), s.marks().end(), 0) / s.marks().size());
 
-   */
+      */
 };

@@ -62,11 +62,15 @@ typedef std::tuple<std::string, PhoneNumber> phonePair;
 
 class PhoneBook {
 private:
+public:
     std::vector<std::pair<Person, PhoneNumber>> bookPh;
 
-public:
-    friend std::ostream &operator<<(std::ostream &out, const PhoneBook &p);
 
+    friend std::ostream &operator<<(std::ostream &out, const PhoneBook &p);
+    PhoneBook(std::vector<std::pair<Person, PhoneNumber>> a){
+        bookPh.clear();
+      std::copy(a.begin(), a.end(), bookPh.begin());
+    }
     PhoneBook(std::ifstream &file) {
         bookPh.clear();
         if (file.is_open()) {

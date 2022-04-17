@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.19)
+cmake_minimum_required(VERSION 3.9)
 project(C_ed)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -6,10 +6,12 @@ set(CMAKE_CXX_STANDARD 17)
 find_package(Protobuf REQUIRED)
 include_directories(${PROTOBUF_INCLUDE_DIRS})
 
-include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
+add_subdirectory(googletest)
+include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
-add_executable(C_ed
+add_executable(
+        C_ed_run
         с/les1.cpp
         с/les2.cpp
         с/les3.cpp
@@ -41,7 +43,6 @@ add_executable(C_ed
         c-hard/hard7.cpp
         ${PROTO_SRCS} ${PROTO_HDRS}
 
-        )
+        c-hard/hard8.cpp c-hard/hard1.h)
 
-
-
+target_link_libraries(C_ed_run gtest gtest_main)
