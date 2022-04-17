@@ -250,6 +250,60 @@ c-hard/hard5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard5.cpp.s
 .PHONY : c-hard/hard5.cpp.s
 
+c-hard/hard6.o: c-hard/hard6.cpp.o
+
+.PHONY : c-hard/hard6.o
+
+# target to build an object file
+c-hard/hard6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard6.cpp.o
+.PHONY : c-hard/hard6.cpp.o
+
+c-hard/hard6.i: c-hard/hard6.cpp.i
+
+.PHONY : c-hard/hard6.i
+
+# target to preprocess a source file
+c-hard/hard6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard6.cpp.i
+.PHONY : c-hard/hard6.cpp.i
+
+c-hard/hard6.s: c-hard/hard6.cpp.s
+
+.PHONY : c-hard/hard6.s
+
+# target to generate assembly for a file
+c-hard/hard6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard6.cpp.s
+.PHONY : c-hard/hard6.cpp.s
+
+c-hard/hard7.o: c-hard/hard7.cpp.o
+
+.PHONY : c-hard/hard7.o
+
+# target to build an object file
+c-hard/hard7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard7.cpp.o
+.PHONY : c-hard/hard7.cpp.o
+
+c-hard/hard7.i: c-hard/hard7.cpp.i
+
+.PHONY : c-hard/hard7.i
+
+# target to preprocess a source file
+c-hard/hard7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard7.cpp.i
+.PHONY : c-hard/hard7.cpp.i
+
+c-hard/hard7.s: c-hard/hard7.cpp.s
+
+.PHONY : c-hard/hard7.s
+
+# target to generate assembly for a file
+c-hard/hard7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard7.cpp.s
+.PHONY : c-hard/hard7.cpp.s
+
 c-hard/hardsource.o: c-hard/hardsource.cpp.o
 
 .PHONY : c-hard/hardsource.o
@@ -757,6 +811,12 @@ help:
 	@echo "... c-hard/hard5.o"
 	@echo "... c-hard/hard5.i"
 	@echo "... c-hard/hard5.s"
+	@echo "... c-hard/hard6.o"
+	@echo "... c-hard/hard6.i"
+	@echo "... c-hard/hard6.s"
+	@echo "... c-hard/hard7.o"
+	@echo "... c-hard/hard7.i"
+	@echo "... c-hard/hard7.s"
 	@echo "... c-hard/hardsource.o"
 	@echo "... c-hard/hardsource.i"
 	@echo "... c-hard/hardsource.s"

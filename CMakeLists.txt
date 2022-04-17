@@ -3,6 +3,12 @@ project(C_ed)
 
 set(CMAKE_CXX_STANDARD 17)
 
+find_package(Protobuf REQUIRED)
+include_directories(${PROTOBUF_INCLUDE_DIRS})
+
+include_directories(${CMAKE_CURRENT_BINARY_DIR})
+
+
 add_executable(C_ed
         с/les1.cpp
         с/les2.cpp
@@ -28,4 +34,14 @@ add_executable(C_ed
         c-hard/hard1.cpp
         oop/oop5.cpp c-hard/hard2.cpp
 
-        c-hard/hard3.cpp c-hard/hatd4.cpp c-hard/hard5.cpp)
+        c-hard/hard3.cpp
+        c-hard/hatd4.cpp
+        c-hard/hard5.cpp
+        c-hard/hard6.cpp
+        c-hard/hard7.cpp
+        ${PROTO_SRCS} ${PROTO_HDRS}
+
+        )
+
+
+

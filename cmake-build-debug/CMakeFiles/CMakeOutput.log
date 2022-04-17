@@ -795,3 +795,47 @@ Parsed CXX implicit link information from above output:
   implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c341/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5c341.dir/build.make CMakeFiles/cmTC_5c341.dir/build
+Building C object CMakeFiles/cmTC_5c341.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_5c341.dir/CheckIncludeFile.c.o -c /Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5c341
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c341.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5c341.dir/CheckIncludeFile.c.o -o cmTC_5c341 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bbf88/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bbf88.dir/build.make CMakeFiles/cmTC_bbf88.dir/build
+Building C object CMakeFiles/cmTC_bbf88.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_bbf88.dir/src.c.o -c /Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bbf88
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbf88.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bbf88.dir/src.c.o -o cmTC_bbf88 
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
