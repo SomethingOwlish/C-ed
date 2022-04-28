@@ -65,6 +65,30 @@ CMakeFiles/C_ed.dir/c-hard/hard7.cpp.o: /usr/local/include/google/protobuf/stubs
 CMakeFiles/C_ed.dir/c-hard/hard7.cpp.o: /usr/local/include/google/protobuf/unknown_field_set.h
 CMakeFiles/C_ed.dir/c-hard/hard7.cpp.o: /usr/local/include/google/protobuf/wire_format_lite.h
 
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/gtest-assertion-result.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/gtest-death-test.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/gtest-matchers.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/gtest-message.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/gtest-param-test.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/gtest-printers.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/gtest-test-part.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/gtest-typed-test.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/gtest.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/gtest_pred_impl.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/gtest_prod.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/internal/custom/gtest-port.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/internal/custom/gtest-printers.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-filepath.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-internal.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-param-util.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-port-arch.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-port.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-string.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-type-util.h
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../c-hard/hard8.cpp
+CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o: ../c-hard/hardsource.h
+
 CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o: ../c-hard/hardsource.cpp
 CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o: ../c-hard/hardsource.h
 

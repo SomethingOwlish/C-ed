@@ -97,6 +97,52 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles /Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug//CMakeFiles/progress.marks
@@ -130,17 +176,69 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named C_ed
+# Target rules for targets named C_ed_run
 
 # Build rule for target.
-C_ed: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C_ed
-.PHONY : C_ed
+C_ed_run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C_ed_run
+.PHONY : C_ed_run
 
 # fast build rule for target.
-C_ed/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/build
-.PHONY : C_ed/fast
+C_ed_run/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/build
+.PHONY : C_ed_run/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest_main.dir/build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
 
 c-hard/hard1.o: c-hard/hard1.cpp.o
 
@@ -148,7 +246,7 @@ c-hard/hard1.o: c-hard/hard1.cpp.o
 
 # target to build an object file
 c-hard/hard1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard1.cpp.o
 .PHONY : c-hard/hard1.cpp.o
 
 c-hard/hard1.i: c-hard/hard1.cpp.i
@@ -157,7 +255,7 @@ c-hard/hard1.i: c-hard/hard1.cpp.i
 
 # target to preprocess a source file
 c-hard/hard1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard1.cpp.i
 .PHONY : c-hard/hard1.cpp.i
 
 c-hard/hard1.s: c-hard/hard1.cpp.s
@@ -166,7 +264,7 @@ c-hard/hard1.s: c-hard/hard1.cpp.s
 
 # target to generate assembly for a file
 c-hard/hard1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard1.cpp.s
 .PHONY : c-hard/hard1.cpp.s
 
 c-hard/hard2.o: c-hard/hard2.cpp.o
@@ -175,7 +273,7 @@ c-hard/hard2.o: c-hard/hard2.cpp.o
 
 # target to build an object file
 c-hard/hard2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard2.cpp.o
 .PHONY : c-hard/hard2.cpp.o
 
 c-hard/hard2.i: c-hard/hard2.cpp.i
@@ -184,7 +282,7 @@ c-hard/hard2.i: c-hard/hard2.cpp.i
 
 # target to preprocess a source file
 c-hard/hard2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard2.cpp.i
 .PHONY : c-hard/hard2.cpp.i
 
 c-hard/hard2.s: c-hard/hard2.cpp.s
@@ -193,7 +291,7 @@ c-hard/hard2.s: c-hard/hard2.cpp.s
 
 # target to generate assembly for a file
 c-hard/hard2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard2.cpp.s
 .PHONY : c-hard/hard2.cpp.s
 
 c-hard/hard3.o: c-hard/hard3.cpp.o
@@ -202,7 +300,7 @@ c-hard/hard3.o: c-hard/hard3.cpp.o
 
 # target to build an object file
 c-hard/hard3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard3.cpp.o
 .PHONY : c-hard/hard3.cpp.o
 
 c-hard/hard3.i: c-hard/hard3.cpp.i
@@ -211,7 +309,7 @@ c-hard/hard3.i: c-hard/hard3.cpp.i
 
 # target to preprocess a source file
 c-hard/hard3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard3.cpp.i
 .PHONY : c-hard/hard3.cpp.i
 
 c-hard/hard3.s: c-hard/hard3.cpp.s
@@ -220,7 +318,7 @@ c-hard/hard3.s: c-hard/hard3.cpp.s
 
 # target to generate assembly for a file
 c-hard/hard3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard3.cpp.s
 .PHONY : c-hard/hard3.cpp.s
 
 c-hard/hard5.o: c-hard/hard5.cpp.o
@@ -229,7 +327,7 @@ c-hard/hard5.o: c-hard/hard5.cpp.o
 
 # target to build an object file
 c-hard/hard5.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard5.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard5.cpp.o
 .PHONY : c-hard/hard5.cpp.o
 
 c-hard/hard5.i: c-hard/hard5.cpp.i
@@ -238,7 +336,7 @@ c-hard/hard5.i: c-hard/hard5.cpp.i
 
 # target to preprocess a source file
 c-hard/hard5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard5.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard5.cpp.i
 .PHONY : c-hard/hard5.cpp.i
 
 c-hard/hard5.s: c-hard/hard5.cpp.s
@@ -247,7 +345,7 @@ c-hard/hard5.s: c-hard/hard5.cpp.s
 
 # target to generate assembly for a file
 c-hard/hard5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard5.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard5.cpp.s
 .PHONY : c-hard/hard5.cpp.s
 
 c-hard/hard6.o: c-hard/hard6.cpp.o
@@ -256,7 +354,7 @@ c-hard/hard6.o: c-hard/hard6.cpp.o
 
 # target to build an object file
 c-hard/hard6.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard6.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard6.cpp.o
 .PHONY : c-hard/hard6.cpp.o
 
 c-hard/hard6.i: c-hard/hard6.cpp.i
@@ -265,7 +363,7 @@ c-hard/hard6.i: c-hard/hard6.cpp.i
 
 # target to preprocess a source file
 c-hard/hard6.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard6.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard6.cpp.i
 .PHONY : c-hard/hard6.cpp.i
 
 c-hard/hard6.s: c-hard/hard6.cpp.s
@@ -274,7 +372,7 @@ c-hard/hard6.s: c-hard/hard6.cpp.s
 
 # target to generate assembly for a file
 c-hard/hard6.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard6.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard6.cpp.s
 .PHONY : c-hard/hard6.cpp.s
 
 c-hard/hard7.o: c-hard/hard7.cpp.o
@@ -283,7 +381,7 @@ c-hard/hard7.o: c-hard/hard7.cpp.o
 
 # target to build an object file
 c-hard/hard7.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard7.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard7.cpp.o
 .PHONY : c-hard/hard7.cpp.o
 
 c-hard/hard7.i: c-hard/hard7.cpp.i
@@ -292,7 +390,7 @@ c-hard/hard7.i: c-hard/hard7.cpp.i
 
 # target to preprocess a source file
 c-hard/hard7.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard7.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard7.cpp.i
 .PHONY : c-hard/hard7.cpp.i
 
 c-hard/hard7.s: c-hard/hard7.cpp.s
@@ -301,8 +399,35 @@ c-hard/hard7.s: c-hard/hard7.cpp.s
 
 # target to generate assembly for a file
 c-hard/hard7.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hard7.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard7.cpp.s
 .PHONY : c-hard/hard7.cpp.s
+
+c-hard/hard8.o: c-hard/hard8.cpp.o
+
+.PHONY : c-hard/hard8.o
+
+# target to build an object file
+c-hard/hard8.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard8.cpp.o
+.PHONY : c-hard/hard8.cpp.o
+
+c-hard/hard8.i: c-hard/hard8.cpp.i
+
+.PHONY : c-hard/hard8.i
+
+# target to preprocess a source file
+c-hard/hard8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard8.cpp.i
+.PHONY : c-hard/hard8.cpp.i
+
+c-hard/hard8.s: c-hard/hard8.cpp.s
+
+.PHONY : c-hard/hard8.s
+
+# target to generate assembly for a file
+c-hard/hard8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hard8.cpp.s
+.PHONY : c-hard/hard8.cpp.s
 
 c-hard/hardsource.o: c-hard/hardsource.cpp.o
 
@@ -310,7 +435,7 @@ c-hard/hardsource.o: c-hard/hardsource.cpp.o
 
 # target to build an object file
 c-hard/hardsource.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hardsource.cpp.o
 .PHONY : c-hard/hardsource.cpp.o
 
 c-hard/hardsource.i: c-hard/hardsource.cpp.i
@@ -319,7 +444,7 @@ c-hard/hardsource.i: c-hard/hardsource.cpp.i
 
 # target to preprocess a source file
 c-hard/hardsource.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hardsource.cpp.i
 .PHONY : c-hard/hardsource.cpp.i
 
 c-hard/hardsource.s: c-hard/hardsource.cpp.s
@@ -328,7 +453,7 @@ c-hard/hardsource.s: c-hard/hardsource.cpp.s
 
 # target to generate assembly for a file
 c-hard/hardsource.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hardsource.cpp.s
 .PHONY : c-hard/hardsource.cpp.s
 
 c-hard/hatd4.o: c-hard/hatd4.cpp.o
@@ -337,7 +462,7 @@ c-hard/hatd4.o: c-hard/hatd4.cpp.o
 
 # target to build an object file
 c-hard/hatd4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hatd4.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hatd4.cpp.o
 .PHONY : c-hard/hatd4.cpp.o
 
 c-hard/hatd4.i: c-hard/hatd4.cpp.i
@@ -346,7 +471,7 @@ c-hard/hatd4.i: c-hard/hatd4.cpp.i
 
 # target to preprocess a source file
 c-hard/hatd4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hatd4.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hatd4.cpp.i
 .PHONY : c-hard/hatd4.cpp.i
 
 c-hard/hatd4.s: c-hard/hatd4.cpp.s
@@ -355,7 +480,7 @@ c-hard/hatd4.s: c-hard/hatd4.cpp.s
 
 # target to generate assembly for a file
 c-hard/hatd4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/c-hard/hatd4.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/c-hard/hatd4.cpp.s
 .PHONY : c-hard/hatd4.cpp.s
 
 ch/chall3.o: ch/chall3.cpp.o
@@ -364,7 +489,7 @@ ch/chall3.o: ch/chall3.cpp.o
 
 # target to build an object file
 ch/chall3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/ch/chall3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/ch/chall3.cpp.o
 .PHONY : ch/chall3.cpp.o
 
 ch/chall3.i: ch/chall3.cpp.i
@@ -373,7 +498,7 @@ ch/chall3.i: ch/chall3.cpp.i
 
 # target to preprocess a source file
 ch/chall3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/ch/chall3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/ch/chall3.cpp.i
 .PHONY : ch/chall3.cpp.i
 
 ch/chall3.s: ch/chall3.cpp.s
@@ -382,7 +507,7 @@ ch/chall3.s: ch/chall3.cpp.s
 
 # target to generate assembly for a file
 ch/chall3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/ch/chall3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/ch/chall3.cpp.s
 .PHONY : ch/chall3.cpp.s
 
 oop/oop1.o: oop/oop1.cpp.o
@@ -391,7 +516,7 @@ oop/oop1.o: oop/oop1.cpp.o
 
 # target to build an object file
 oop/oop1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop1.cpp.o
 .PHONY : oop/oop1.cpp.o
 
 oop/oop1.i: oop/oop1.cpp.i
@@ -400,7 +525,7 @@ oop/oop1.i: oop/oop1.cpp.i
 
 # target to preprocess a source file
 oop/oop1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop1.cpp.i
 .PHONY : oop/oop1.cpp.i
 
 oop/oop1.s: oop/oop1.cpp.s
@@ -409,7 +534,7 @@ oop/oop1.s: oop/oop1.cpp.s
 
 # target to generate assembly for a file
 oop/oop1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop1.cpp.s
 .PHONY : oop/oop1.cpp.s
 
 oop/oop2.o: oop/oop2.cpp.o
@@ -418,7 +543,7 @@ oop/oop2.o: oop/oop2.cpp.o
 
 # target to build an object file
 oop/oop2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop2.cpp.o
 .PHONY : oop/oop2.cpp.o
 
 oop/oop2.i: oop/oop2.cpp.i
@@ -427,7 +552,7 @@ oop/oop2.i: oop/oop2.cpp.i
 
 # target to preprocess a source file
 oop/oop2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop2.cpp.i
 .PHONY : oop/oop2.cpp.i
 
 oop/oop2.s: oop/oop2.cpp.s
@@ -436,7 +561,7 @@ oop/oop2.s: oop/oop2.cpp.s
 
 # target to generate assembly for a file
 oop/oop2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop2.cpp.s
 .PHONY : oop/oop2.cpp.s
 
 oop/oop3.o: oop/oop3.cpp.o
@@ -445,7 +570,7 @@ oop/oop3.o: oop/oop3.cpp.o
 
 # target to build an object file
 oop/oop3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop3.cpp.o
 .PHONY : oop/oop3.cpp.o
 
 oop/oop3.i: oop/oop3.cpp.i
@@ -454,7 +579,7 @@ oop/oop3.i: oop/oop3.cpp.i
 
 # target to preprocess a source file
 oop/oop3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop3.cpp.i
 .PHONY : oop/oop3.cpp.i
 
 oop/oop3.s: oop/oop3.cpp.s
@@ -463,7 +588,7 @@ oop/oop3.s: oop/oop3.cpp.s
 
 # target to generate assembly for a file
 oop/oop3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop3.cpp.s
 .PHONY : oop/oop3.cpp.s
 
 oop/oop4.o: oop/oop4.cpp.o
@@ -472,7 +597,7 @@ oop/oop4.o: oop/oop4.cpp.o
 
 # target to build an object file
 oop/oop4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop4.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop4.cpp.o
 .PHONY : oop/oop4.cpp.o
 
 oop/oop4.i: oop/oop4.cpp.i
@@ -481,7 +606,7 @@ oop/oop4.i: oop/oop4.cpp.i
 
 # target to preprocess a source file
 oop/oop4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop4.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop4.cpp.i
 .PHONY : oop/oop4.cpp.i
 
 oop/oop4.s: oop/oop4.cpp.s
@@ -490,7 +615,7 @@ oop/oop4.s: oop/oop4.cpp.s
 
 # target to generate assembly for a file
 oop/oop4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop4.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop4.cpp.s
 .PHONY : oop/oop4.cpp.s
 
 oop/oop5.o: oop/oop5.cpp.o
@@ -499,7 +624,7 @@ oop/oop5.o: oop/oop5.cpp.o
 
 # target to build an object file
 oop/oop5.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop5.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop5.cpp.o
 .PHONY : oop/oop5.cpp.o
 
 oop/oop5.i: oop/oop5.cpp.i
@@ -508,7 +633,7 @@ oop/oop5.i: oop/oop5.cpp.i
 
 # target to preprocess a source file
 oop/oop5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop5.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop5.cpp.i
 .PHONY : oop/oop5.cpp.i
 
 oop/oop5.s: oop/oop5.cpp.s
@@ -517,7 +642,7 @@ oop/oop5.s: oop/oop5.cpp.s
 
 # target to generate assembly for a file
 oop/oop5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/oop5.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/oop5.cpp.s
 .PHONY : oop/oop5.cpp.s
 
 oop/source.o: oop/source.cpp.o
@@ -526,7 +651,7 @@ oop/source.o: oop/source.cpp.o
 
 # target to build an object file
 oop/source.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/source.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/source.cpp.o
 .PHONY : oop/source.cpp.o
 
 oop/source.i: oop/source.cpp.i
@@ -535,7 +660,7 @@ oop/source.i: oop/source.cpp.i
 
 # target to preprocess a source file
 oop/source.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/source.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/source.cpp.i
 .PHONY : oop/source.cpp.i
 
 oop/source.s: oop/source.cpp.s
@@ -544,7 +669,7 @@ oop/source.s: oop/source.cpp.s
 
 # target to generate assembly for a file
 oop/source.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/oop/source.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/oop/source.cpp.s
 .PHONY : oop/source.cpp.s
 
 с/les1.o: с/les1.cpp.o
@@ -553,7 +678,7 @@ oop/source.cpp.s:
 
 # target to build an object file
 с/les1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les1.cpp.o
 .PHONY : с/les1.cpp.o
 
 с/les1.i: с/les1.cpp.i
@@ -562,7 +687,7 @@ oop/source.cpp.s:
 
 # target to preprocess a source file
 с/les1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les1.cpp.i
 .PHONY : с/les1.cpp.i
 
 с/les1.s: с/les1.cpp.s
@@ -571,7 +696,7 @@ oop/source.cpp.s:
 
 # target to generate assembly for a file
 с/les1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les1.cpp.s
 .PHONY : с/les1.cpp.s
 
 с/les2.o: с/les2.cpp.o
@@ -580,7 +705,7 @@ oop/source.cpp.s:
 
 # target to build an object file
 с/les2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les2.cpp.o
 .PHONY : с/les2.cpp.o
 
 с/les2.i: с/les2.cpp.i
@@ -589,7 +714,7 @@ oop/source.cpp.s:
 
 # target to preprocess a source file
 с/les2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les2.cpp.i
 .PHONY : с/les2.cpp.i
 
 с/les2.s: с/les2.cpp.s
@@ -598,7 +723,7 @@ oop/source.cpp.s:
 
 # target to generate assembly for a file
 с/les2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les2.cpp.s
 .PHONY : с/les2.cpp.s
 
 с/les3.o: с/les3.cpp.o
@@ -607,7 +732,7 @@ oop/source.cpp.s:
 
 # target to build an object file
 с/les3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les3.cpp.o
 .PHONY : с/les3.cpp.o
 
 с/les3.i: с/les3.cpp.i
@@ -616,7 +741,7 @@ oop/source.cpp.s:
 
 # target to preprocess a source file
 с/les3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les3.cpp.i
 .PHONY : с/les3.cpp.i
 
 с/les3.s: с/les3.cpp.s
@@ -625,7 +750,7 @@ oop/source.cpp.s:
 
 # target to generate assembly for a file
 с/les3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les3.cpp.s
 .PHONY : с/les3.cpp.s
 
 с/les4.o: с/les4.cpp.o
@@ -634,7 +759,7 @@ oop/source.cpp.s:
 
 # target to build an object file
 с/les4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les4.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les4.cpp.o
 .PHONY : с/les4.cpp.o
 
 с/les4.i: с/les4.cpp.i
@@ -643,7 +768,7 @@ oop/source.cpp.s:
 
 # target to preprocess a source file
 с/les4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les4.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les4.cpp.i
 .PHONY : с/les4.cpp.i
 
 с/les4.s: с/les4.cpp.s
@@ -652,7 +777,7 @@ oop/source.cpp.s:
 
 # target to generate assembly for a file
 с/les4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les4.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les4.cpp.s
 .PHONY : с/les4.cpp.s
 
 с/les5.o: с/les5.cpp.o
@@ -661,7 +786,7 @@ oop/source.cpp.s:
 
 # target to build an object file
 с/les5.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les5.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les5.cpp.o
 .PHONY : с/les5.cpp.o
 
 с/les5.i: с/les5.cpp.i
@@ -670,7 +795,7 @@ oop/source.cpp.s:
 
 # target to preprocess a source file
 с/les5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les5.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les5.cpp.i
 .PHONY : с/les5.cpp.i
 
 с/les5.s: с/les5.cpp.s
@@ -679,7 +804,7 @@ oop/source.cpp.s:
 
 # target to generate assembly for a file
 с/les5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les5.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les5.cpp.s
 .PHONY : с/les5.cpp.s
 
 с/les6.o: с/les6.cpp.o
@@ -688,7 +813,7 @@ oop/source.cpp.s:
 
 # target to build an object file
 с/les6.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les6.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les6.cpp.o
 .PHONY : с/les6.cpp.o
 
 с/les6.i: с/les6.cpp.i
@@ -697,7 +822,7 @@ oop/source.cpp.s:
 
 # target to preprocess a source file
 с/les6.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les6.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les6.cpp.i
 .PHONY : с/les6.cpp.i
 
 с/les6.s: с/les6.cpp.s
@@ -706,7 +831,7 @@ oop/source.cpp.s:
 
 # target to generate assembly for a file
 с/les6.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les6.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les6.cpp.s
 .PHONY : с/les6.cpp.s
 
 с/les7.o: с/les7.cpp.o
@@ -715,7 +840,7 @@ oop/source.cpp.s:
 
 # target to build an object file
 с/les7.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les7.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les7.cpp.o
 .PHONY : с/les7.cpp.o
 
 с/les7.i: с/les7.cpp.i
@@ -724,7 +849,7 @@ oop/source.cpp.s:
 
 # target to preprocess a source file
 с/les7.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les7.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les7.cpp.i
 .PHONY : с/les7.cpp.i
 
 с/les7.s: с/les7.cpp.s
@@ -733,7 +858,7 @@ oop/source.cpp.s:
 
 # target to generate assembly for a file
 с/les7.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/les7.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/les7.cpp.s
 .PHONY : с/les7.cpp.s
 
 с/sources.o: с/sources.cpp.o
@@ -742,7 +867,7 @@ oop/source.cpp.s:
 
 # target to build an object file
 с/sources.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/sources.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/sources.cpp.o
 .PHONY : с/sources.cpp.o
 
 с/sources.i: с/sources.cpp.i
@@ -751,7 +876,7 @@ oop/source.cpp.s:
 
 # target to preprocess a source file
 с/sources.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/sources.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/sources.cpp.i
 .PHONY : с/sources.cpp.i
 
 с/sources.s: с/sources.cpp.s
@@ -760,7 +885,7 @@ oop/source.cpp.s:
 
 # target to generate assembly for a file
 с/sources.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/sources.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/sources.cpp.s
 .PHONY : с/sources.cpp.s
 
 с/valLes3.o: с/valLes3.cpp.o
@@ -769,7 +894,7 @@ oop/source.cpp.s:
 
 # target to build an object file
 с/valLes3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/valLes3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/valLes3.cpp.o
 .PHONY : с/valLes3.cpp.o
 
 с/valLes3.i: с/valLes3.cpp.i
@@ -778,7 +903,7 @@ oop/source.cpp.s:
 
 # target to preprocess a source file
 с/valLes3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/valLes3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/valLes3.cpp.i
 .PHONY : с/valLes3.cpp.i
 
 с/valLes3.s: с/valLes3.cpp.s
@@ -787,7 +912,7 @@ oop/source.cpp.s:
 
 # target to generate assembly for a file
 с/valLes3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed.dir/build.make CMakeFiles/C_ed.dir/с/valLes3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_ed_run.dir/build.make CMakeFiles/C_ed_run.dir/с/valLes3.cpp.s
 .PHONY : с/valLes3.cpp.s
 
 # Help Target
@@ -797,8 +922,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... C_ed"
+	@echo "... C_ed_run"
+	@echo "... gmock"
+	@echo "... gmock_main"
+	@echo "... gtest"
+	@echo "... gtest_main"
 	@echo "... c-hard/hard1.o"
 	@echo "... c-hard/hard1.i"
 	@echo "... c-hard/hard1.s"
@@ -817,6 +950,9 @@ help:
 	@echo "... c-hard/hard7.o"
 	@echo "... c-hard/hard7.i"
 	@echo "... c-hard/hard7.s"
+	@echo "... c-hard/hard8.o"
+	@echo "... c-hard/hard8.i"
+	@echo "... c-hard/hard8.s"
 	@echo "... c-hard/hardsource.o"
 	@echo "... c-hard/hardsource.i"
 	@echo "... c-hard/hardsource.s"

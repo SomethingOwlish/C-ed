@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard5.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/c-hard/hard5.cpp.o"
   "/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard6.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/c-hard/hard6.cpp.o"
   "/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard7.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/c-hard/hard7.cpp.o"
+  "/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hard8.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/c-hard/hard8.cpp.o"
   "/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hardsource.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/c-hard/hardsource.cpp.o"
   "/Users/morganvalravn/Documents/Projects/C-ed/c-hard/hatd4.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/c-hard/hatd4.cpp.o"
   "/Users/morganvalravn/Documents/Projects/C-ed/ch/chall3.cpp" "/Users/morganvalravn/Documents/Projects/C-ed/cmake-build-debug/CMakeFiles/C_ed.dir/ch/chall3.cpp.o"
@@ -34,7 +35,8 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include"
-  "."
+  "../googletest/googletest/include"
+  "../googletest/googletest"
   )
 
 # Targets to which this target links.
